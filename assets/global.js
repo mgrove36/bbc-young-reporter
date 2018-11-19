@@ -1,11 +1,11 @@
 $(document).ready(function(){
     // include navbar
-    $(".mdc-drawer").load("//page-inserts/navbar.html", function(){
+    $(".mdc-drawer").load("/page-inserts/navbar.html", function(){
         // initiate MDC drawer
         const drawer = new mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
 
         // include top app bar
-        $(".mdc-top-app-bar").load("//page-inserts/top-app-bar.html", function(){
+        $(".mdc-top-app-bar").load("/page-inserts/top-app-bar.html", function(){
             // initiate MDC top app bar
             const mdc_top_app_bar = new mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
             mdc_top_app_bar.setScrollTarget(document.getElementById('main-content'));
@@ -41,7 +41,7 @@ $(document).ready(function(){
 
     // include cookie notice
     if(Cookies.get("reading-school-bbc-school-report-cookies-accepted") != "true") {
-        $("#cookies").load("//page-inserts/cookie-notice.html", function(){
+        $("#cookies").load("/page-inserts/cookie-notice.html", function(){
             $("#cookies").show();
             $("#cookies").animate({bottom: "0px"}, 1000);
             $(".source-code-link").animate({bottom: "100px"}, 1000);
