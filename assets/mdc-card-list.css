@@ -1,0 +1,42 @@
+.mdc-card {
+    margin: 2px 2px 10px 2px;
+}
+.mdc-card-content {
+    margin: 5px;
+}
+
+.mdc-card .mdc-typography--headline6, .mdc-card .mdc-typography--subtitle2 {
+    margin: 0;
+}
+
+.main-content {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+@media screen and (max-width: 600px) {
+    .main-content {
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-content {
+        margin-left:  2%;
+        margin-right: 2%;
+    }
+}
+
+.main-content .mdc-card {
+	float:left;
+	clear:left;
+	width: 49%;
+}
+.main-content .mdc-card:nth-of-type(even){
+	float:right;
+	clear:right;
+}
+.main-content .mdc-card:nth-child(1), .main-content .mdc-card:nth-child(2) {
+    float: none;
+    clear: none;
+    width: auto;
+}
