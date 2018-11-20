@@ -69,7 +69,7 @@ footer {
     text-align: center;
     bottom: -100px;
     left: 0;
-    z-index: 9999;
+    z-index: 1;
 }
 
 #cookies p {
