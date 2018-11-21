@@ -3,18 +3,18 @@ $(document).ready(function(){
     $(".mdc-drawer").load("/page-inserts/navbar.html", function(){
         // include top app bar
         $(".mdc-top-app-bar").load("/page-inserts/top-app-bar.html", function(){
-            
+
             // initiate MDC drawer
             const drawer = new mdc.drawer.MDCDrawer.attachTo(document.querySelector(".mdc-drawer"));
-            
+
             // initiate MDC top app bar
             const mdc_top_app_bar = new mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
-            
+
             mdc_top_app_bar.listen("MDCTopAppBar:nav", () => {
                 drawer.open = !drawer.open;
             });
-            
-            
+
+
 
             // initiate MDC items
             mdc.autoInit();
@@ -29,7 +29,10 @@ $(document).ready(function(){
             }
 
             // set top app bar title
-            $(".mdc-top-app-bar__title").html(window.page_title);
+            if (window.page_title != null) {
+                $(".mdc-top-app-bar__title").html(window.page_title + " | BBC Young Reporter | Reading School");
+                document.title= window.page_title + " | BBC Young Reporter | Reading School";
+            }
 
             // give 'seleted' styling to correct item on navbar
             $(drawer_item_link_query_selector + "']").addClass("mdc-list-item--activated");
@@ -43,7 +46,7 @@ $(document).ready(function(){
     jQuery("time.timeago").timeago();
 
     // include cookie notice
-    if(Cookies.get("reading-school-bbc-school-report-cookies-accepted") != "true") {
+    if(Cookies.get("reading-school-bbc-young-reporter-cookies-accepted") != "true") {
         $("#cookies").load("/page-inserts/cookie-notice.html", function(){
             $("#cookies").show();
             $("#cookies").animate({bottom: "0px"}, 1000);
@@ -53,7 +56,7 @@ $(document).ready(function(){
                 $("#cookies").animate({bottom: "-100px"}, 1000);
                 setTimeout(function(){$("#cookies").hide()},1000);
                 $(".source-code-link").animate({bottom: "15px"}, 1000);
-                Cookies.set("reading-school-bbc-school-report-cookies-accepted", "true", {expires: 30});
+                Cookies.set("reading-school-bbc-young-reporter-cookies-accepted", "true", {expires: 30});
             });
         });
     }

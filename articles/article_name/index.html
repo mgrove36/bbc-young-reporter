@@ -14,14 +14,14 @@
         <!-- add to homescreen for Safari on iOS -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="BBC School Report | Reading School">
+        <meta name="apple-mobile-web-app-title" content="BBC Young Reporter | Reading School">
         <link rel="apple-touch-icon-precomposed" href="https://matthew-grove.ml/logo.png">
 
         <!-- tile icon & colour for Windows 8 -->
         <meta name="msapplication-TileImage" content="https://matthew-grove.ml/logo.png">
         <meta name="msapplication-TileColor" content="#d84315">
 
-        <title>Article Name | BBC School Report | Reading School</title>
+        <title>BBC Young Reporter | Reading School</title>
         <meta name="description" content="News articles written by Reading School students in year 8">
 
         <!-- import Roboto (font) -->
@@ -45,6 +45,11 @@
         <script src="/assets/global.js"></script>
         <link href="/assets/global.css" rel="stylesheet">
         <link href="/assets/article-page.css" rel="stylesheet">
+
+        <!-- define title so that webpage & top app bar titles can be instantiated via JS -->
+        <script>
+            window.page_title = "Article Name";
+        </script>
     </head>
     <body>
         <!-- cookie notice is included via jQuery -->
@@ -70,7 +75,7 @@
                         <figcaption class="mdc-typography--caption-text">A brass statue of a child, in a garden</figcaption>
                     </figure>
                     <p>
-                        
+
                     </p>
                 </div>
             </main>
