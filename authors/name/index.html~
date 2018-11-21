@@ -21,7 +21,7 @@
         <meta name="msapplication-TileImage" content="https://matthew-grove.ml/logo.png">
         <meta name="msapplication-TileColor" content="#d84315">
 
-        <title>BBC School Report | Reading School</title>
+        <title>Name | BBC School Report | Reading School</title>
         <meta name="description" content="News articles written by Reading School students in year 8">
 
         <!-- import Roboto (font) -->
@@ -67,12 +67,12 @@
                             <h2 class="mdc-typography--headline6">Title</h2>
                             <h3 class="mdc-typography--subtitle2">
                                 <time class="timeago" datetime="2018-11-21T07:08:0Z">Wednesday 21st November 2018</time>
-                                 | by <a href="/authors/name">Name</a>
+                                 | by <a href="//authors/author.html">Name</a>
                             </h3>
                         </div>
                         <div class="mdc-card__actions">
                             <div class="mdc-card__action-buttons">
-                                <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='/articles/article_name';">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='//articles/article/article_name';">Read</button>
                             </div>
                         </div>
                     </div>
