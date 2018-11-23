@@ -50,12 +50,12 @@ $(document).ready(function(){
         $("#cookies").load("/page-inserts/cookie-notice.html", function(){
             $("#cookies").show();
             $("#cookies").animate({bottom: "0px"}, 1000);
-            $(".source-code-link").animate({bottom: "100px"}, 1000);
+            $("footer").animate({marginBottom: "115px"}, 1000);
             $("#close-cookies").click(function(){
                 event.preventDefault();
                 $("#cookies").animate({bottom: "-100px"}, 1000);
                 setTimeout(function(){$("#cookies").hide()},1000);
-                $(".source-code-link").animate({bottom: "15px"}, 1000);
+                     $("footer").animate({marginBottom: "15px"}, 1000);
                 Cookies.set("reading-school-bbc-young-reporter-cookies-accepted", "true", {expires: 30});
             });
         });
