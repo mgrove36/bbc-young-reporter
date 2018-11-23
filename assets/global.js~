@@ -50,7 +50,7 @@ $(document).ready(function(){
         $("#cookies").load("/page-inserts/cookie-notice.html", function(){
             $("#cookies").show();
             $("#cookies").animate({bottom: "0px"}, 1000);
-            $("footer").animate({marginBottom: "87px"}, 1000);
+            $("footer").animate({marginBottom: "115px"}, 1000);
             $("#close-cookies").click(function(){
                 event.preventDefault();
                 $("#cookies").animate({bottom: "-100px"}, 1000);
