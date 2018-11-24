@@ -36,7 +36,25 @@ footer {
     margin: 15px;
 }
 
+/* add side margins */
+.main-content {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+@media screen and (max-width: 600px) {
+    .main-content {
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-content {
+        margin-left:  2%;
+        margin-right: 2%;
+    }
+}
 
+/* for cookie notice */
 #cookies {
     display: none;
     width: 100%;
