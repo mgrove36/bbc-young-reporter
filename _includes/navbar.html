@@ -5,7 +5,7 @@
                 <img src="/images/page-logo.png" style="width: 90%;"/>
             </div>
             <a class="mdc-list-item" href="https://reading-school.co.uk" data-mdc-auto-init="MDCRipple">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">school</i>
                 <span class="mdc-list-item__text">Reading School Website</span>
             </a>
             <a class="mdc-list-item" href="/" data-mdc-auto-init="MDCRipple">
@@ -16,14 +16,10 @@
                 <h3 class="mdc-list-group__subheader">Articles</h3>
                 {% for page in site.categories.articles  %}
                     <a class="mdc-list-item" href="{{ page.url | relative_url }}" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">subject</i>
+                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
                         <span class="mdc-list-item__text">{{ page.title }}</span>
                     </a>
                 {% endfor %}
-                <a class="mdc-list-item" href="/articles/article_name" data-mdc-auto-init="MDCRipple">
-                    <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                    <span class="mdc-list-item__text">Title</span>
-                </a>
             </div>
             <div class="mdc-list-group">
                 <h3 class="mdc-list-group__subheader">Authors</h3>

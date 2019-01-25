@@ -14,11 +14,11 @@
 	clear:left;
 	width: 49%;
 }
-.main-content .mdc-card:nth-of-type(even){
+.main-content .mdc-card:nth-of-type(4n){
 	float:right;
 	clear:right;
 }
-.main-content .mdc-card:nth-child(1), .main-content .mdc-card:nth-child(2) {
+.main-content .mdc-card:nth-child(1), .main-content .mdc-card:nth-child(3) {
     float: none;
     clear: none;
     width: auto;
