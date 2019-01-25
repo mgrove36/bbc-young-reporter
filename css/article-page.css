@@ -4,3 +4,6 @@
 .mdc-typography--headline2, .mdc-typography--subtitle1, figure {
    margin: 5px;
 }
+.mdc-typography--caption-text {
+    font-style: italic;
+}
