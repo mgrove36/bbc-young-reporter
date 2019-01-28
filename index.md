@@ -4,6 +4,7 @@ description: News articles written by Reading School students in year 8
 layout: article-list
 ---
 
+{% if site.categories.articles %}
 {% for article in site.categories.articles %}
 <div class="mdc-card">
     <div class="mdc-card__media mdc-card__media--16-9 {{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }}"></div>
@@ -27,3 +28,11 @@ layout: article-list
     }
 </style>
 {% endfor %}
+{% else %}
+<center>We haven't got any articles for you yet! Come back during this year's BBC Young Reporter day to see what Reading School's year 8 students have produced!</center>
+<style>
+    center {
+        margin: 25vh auto 25vh auto;
+    }
+</style>
+{% endif %}

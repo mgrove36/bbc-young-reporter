@@ -3,25 +3,18 @@
     
     <url>
         <loc>/</loc>
-        <lastmod>2019-01-27</lastmod>
+        <lastmod>2019-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/sitemap.xml</loc>
-        <lastmod>2019-01-27</lastmod>
+        <lastmod>2019-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     
-    
-    <url>
-        <loc>/articles/2019/01/01/article-name.html</loc>
-        <lastmod>2019-01-27</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
     
 </urlset>
