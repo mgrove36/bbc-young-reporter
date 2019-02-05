@@ -18,6 +18,11 @@ a {
     color: var(--mdc-theme-secondary);
 }
 
+.mdc-list-group h3 {
+    margin: 20px 16px auto 16px;
+    font-weight: normal;
+}
+
 .mdc-drawer-app-content {
     flex: auto;
     overflow: auto;
