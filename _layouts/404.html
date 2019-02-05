@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <!-- cookie notice is included automatically -->
+        {% include cookie-notice.html %}
+
+        <!-- content of navbar is included via jQuery -->
+        {% include navbar.html %}
+
+        <div class="mdc-drawer-app-content">
+            {% include top-app-bar.html %}
+
+            <main class="main-content" id="main-content">
+                <div class="mdc-top-app-bar--short-fixed-adjust">
+                    <h2 class="mdc-typography--headline2">{{ page.title }}</h2>
+                    {{ content }}
+                </div>
+            </main>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
