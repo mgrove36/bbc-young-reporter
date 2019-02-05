@@ -12,10 +12,10 @@
                 <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
                 <span class="mdc-list-item__text">Home Page</span>
             </a>
-            {% if site.posts %}
+            {% if site.categories.articles %}
             <div class="mdc-list-group">
                 <h3 class="mdc-list-group__subheader">Articles</h3>
-                {% for article in site.posts  %}
+                {% for article in site.categories.articles  %}
                     {% assign currentdate = article.date | date: "%Y" %}
                     {% if currentdate != date %}
                     <h3 class="mdc-list-group__subheader">{{ currentdate }}</h3>
