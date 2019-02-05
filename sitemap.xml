@@ -7,12 +7,14 @@ search: exclude
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.pages %}
     {% if page.url != "/assets/css/style.css" %}
+    {% if page.url != "/sitemap.xml" %}
     <url>
         <loc>{{ page.url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
+    {% endif %}
     {% endif %}
     {% endfor %}
 
