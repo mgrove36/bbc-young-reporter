@@ -11,7 +11,11 @@ search: exclude
     <url>
         <loc>{{ page.url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+<<<<<<< HEAD
         <changefreq>hourly</changefreq>
+=======
+        <changefreq>always</changefreq>
+>>>>>>> 33d7045a1dea50b0ffc13dfc815da48a2797d44d
         <priority>0.5</priority>
     </url>
     {% endif %}
@@ -22,7 +26,11 @@ search: exclude
     <url>
         <loc>{{ post.url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+<<<<<<< HEAD
         <changefreq>hourly</changefreq>
+=======
+        <changefreq>always</changefreq>
+>>>>>>> 33d7045a1dea50b0ffc13dfc815da48a2797d44d
         <priority>0.5</priority>
     </url>
     {% endfor %}
