@@ -50,9 +50,7 @@
 
 .top-scroll-button img {
     position: relative;
-    right: 0;
-    top: 5.5px;
-    padding: 5px;
+    top: 9.5px;
     width: 35px;
     height: auto;
     -webkit-transition-duration: 0.25s;
