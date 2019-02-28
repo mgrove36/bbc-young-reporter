@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <link href="/css/article-page.css" rel="stylesheet">
+    <body>
+        <!-- cookie notice is included automatically -->
+        {% include cookie-notice.html %}
+
+        <!-- content of navbar is included via jQuery -->
+        {% include navbar.html %}
+
+        <div class="mdc-drawer-app-content">
+            {% include top-app-bar.html %}
+
+            <main class="main-content" id="main-content">
+                <div class="mdc-top-app-bar--short-fixed-adjust">
+                    <h2 class="mdc-typography--headline2">{{ page.title }}</h2>
+                    <h3 class="mdc-typography--subtitle1">
+                        <time class="timeago" datetime="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%H:%M:%S' }}">{{ page.date | date: '%A %e %B %Y' }}</time>
+                         | by {{ page.authors }}
+                    </h3>
+                    <figure>
+                        <iframe src="https://www.youtube.com/embed/{{ page.video-id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <figcaption class="mdc-typography--caption-text">{{ page.video-caption }}</figcaption>
+                    </figure>
+                    {{ content }}
+                </div>
+            </main>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
