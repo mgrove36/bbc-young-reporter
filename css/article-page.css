@@ -1,3 +1,4 @@
+/* make text look nice */
 .mdc-typography--headline2, .mdc-typography--subtitle1 {
     text-transform: capitalize;
 }
@@ -8,6 +9,8 @@
     font-style: italic;
 }
 
+
+/* adjust video dimensions depending on screen size */
 iframe {
   width: 100%;
   height: calc(68.8vw / 16 * 9);
@@ -30,4 +33,53 @@ iframe {
   iframe {
     height: calc(93.5vw / 16 * 9);
   }
+}
+
+
+/* make article cards look nice by altering margins */
+.mdc-card-content {
+    margin: 5px 15px 5px 15px;
+}
+
+.mdc-card .mdc-typography--headline6, .mdc-card .mdc-typography--subtitle2 {
+    margin: 0;
+}
+
+
+/* change carousel dots' styling to make them more visible */
+.slick-dots {
+    position: relative;
+    bottom: 0;
+    margin: auto;
+}
+
+.slick-dots li button:before {
+    font-size: 30px;
+}
+
+.slick-dots li.slick-active button::before {
+    font-size: 40px;
+    color: var(--mdc-theme-primary);
+    top: 0.5px;
+}
+
+
+/* ensure buttons don't get in the way & enable scrolling */
+.slick-next {
+    right: 0;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+
+/* ensure MDC cards are separated enough that they are distinguishable */
+.carousel-item {
+    margin: 4px;
+}
+
+/* remove excessive margin below carousel */
+.slick-dotted.slick-slider {
+    margin-bottom: 13px;
 }
