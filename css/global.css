@@ -111,3 +111,43 @@ footer img {
     color: var(--mdc-theme-secondary);
     text-decoration: none;
 }
+
+
+/* for scroll-to-top button */
+.top-scroll-button {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #273967;
+    display: none;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.top-scroll-button img {
+    position: relative;
+    top: 7px;
+    width: 35px;
+    height: auto;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.top-scroll-button:hover, .top-scroll-button:focus {
+    background-color: #1C2E56;
+}
+
+.top-scroll-button:hover img {
+    top: 3px;
+}
