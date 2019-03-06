@@ -13,7 +13,7 @@ layout: none
     window.setInterval(function() {
         document.getElementById('articles').contentWindow.location.reload();
         document.getElementsByClass('twitter-timeline')[0].contentWindow.location.reload();
-    }, 60000);
+    }, 10000);
 </script>
 
 <style>
