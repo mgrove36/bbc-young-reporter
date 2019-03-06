@@ -1,7 +1,7 @@
 ---
 title: What's Next For Reading Prison?
 date: 2019-03-06 10:38
-authors: Tom S-V, Ben S-V
+authors: Tom S-R, Ben S-R
 image-caption: A view of one of the prison buildings | &copy; BBC
 layout: image-article
 categories: articles
