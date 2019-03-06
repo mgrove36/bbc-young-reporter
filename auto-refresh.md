@@ -13,7 +13,6 @@ layout: none
         document.getElementById('articles-1').style.zIndex = "2";
         document.getElementById('articles-2').style.zIndex = "1";
         document.getElementById('articles-2').contentWindow.location.reload(true);
-        document.getElementsByClassName('twitter-timeline')[0].contentWindow.location.reload(true);
         setTimeout(function() {
             document.getElementById('articles-2').style.zIndex = "2";
             document.getElementById('articles-1').style.zIndex = "1";
