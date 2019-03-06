@@ -12,12 +12,12 @@ layout: none
     window.setInterval(function() {
         document.getElementById('articles-1').style.zIndex = "2";
         document.getElementById('articles-2').style.zIndex = "1";
-        document.getElementById('articles-2').contentWindow.location.reload();
-        document.getElementsByClass('twitter-timeline')[0].contentWindow.location.reload();
+        document.getElementById('articles-2').contentWindow.location.reload(true);
+        document.getElementsByClass('twitter-timeline')[0].contentWindow.location.reload(true);
         setTimeout(function() {
             document.getElementById('articles-2').style.zIndex = "2";
             document.getElementById('articles-1').style.zIndex = "1";
-            document.getElementById('articles-1').contentWindow.location.reload();
+            document.getElementById('articles-1').contentWindow.location.reload(true);
         }, 10000)
     }, 20000);
 </script>
