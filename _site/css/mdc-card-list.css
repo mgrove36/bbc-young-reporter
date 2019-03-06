@@ -16,7 +16,7 @@
 .main-content .mdc-card {
 	float: left;
 	clear: left;
-	width: 49%;
+	width: calc(50% - 6px);
 }
 
 .main-content .mdc-card:nth-of-type(even) {
