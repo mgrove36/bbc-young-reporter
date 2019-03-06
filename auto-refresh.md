@@ -1,0 +1,23 @@
+---
+title: BBC Young Reporter
+description: News articles written by Reading School students in year 8
+layout: none
+---
+
+<iframe id="iframe" src="/"></iframe>
+
+<script>
+window.setInterval(function() {
+            document.getElementById('iframe').contentWindow.location.reload();
+        }, 300000);
+</script>
+
+<style>
+    html, body, iframe {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+</style>

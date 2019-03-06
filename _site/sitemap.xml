@@ -15,6 +15,17 @@
     
     
     <url>
+        <loc>/auto-refresh.html</loc>
+        <lastmod>2019-03-06</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    
+    
+    
+    
+    <url>
         <loc>/</loc>
         <lastmod>2019-03-06</lastmod>
         <changefreq>hourly</changefreq>
