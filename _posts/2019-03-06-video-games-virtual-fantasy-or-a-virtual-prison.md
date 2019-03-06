@@ -1,5 +1,5 @@
 ---
-title: Reading School's BBC Young Reporter Team… Ready To Go!
+title: Video Games: Virtual Fantasy Or A Virtual Prison?
 date: 2019-03-06 12:19
 authors: Kamran S
 image-caption: Fortnite - one of the world's biggest video games | &copy; Getty
