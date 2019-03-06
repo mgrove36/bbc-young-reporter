@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+.mdc-card .mdc-typography--headline6 {
+    text-transform: capitalize;
+}
+
 
 /* automatically display articles on either side of the page, alternating */
 .main-content .mdc-card {
