@@ -2,7 +2,7 @@
 title: Reading School's BBC Young Reporter Team… Ready To Go!
 date: 2019-03-06 9:36
 authors: Mr Baldock
-image-caption:
+image-caption: Reading School's 2019 BBC Young Reporter team | &copy; Reading School
 layout: image-article
 categories: articles
 ---
