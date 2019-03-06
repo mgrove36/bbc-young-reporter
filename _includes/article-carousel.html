@@ -9,6 +9,7 @@
             {% if article_date == current_article_date %}
             {% assign current_authors = page.authors | split: ", " %}
             {% for current_author in current_authors %}
+                {% assign break = false %}
                 {% if author == current_author %}
                     {% if article_list_displayed == false %}
                     <h2 class="mdc-typography--headline5">
@@ -44,8 +45,8 @@
                             }
                         </style>
                     </div>
-                    {% break %}
                     {% assign break = true %}
+                    {% break %}
                     {% endif %}
             {% endfor %}
             {% endif %}
