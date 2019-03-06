@@ -55,12 +55,14 @@ iframe {
 
 .slick-dots li button:before {
     font-size: 30px;
+    opacity: 1;
+    color: #ababab;
 }
 
 .slick-dots li.slick-active button::before {
     font-size: 40px;
+    opacity: 1;
     color: var(--mdc-theme-primary);
-    top: 0.5px;
 }
 
 
