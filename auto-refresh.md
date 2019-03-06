@@ -7,11 +7,11 @@ layout: none
 <script src="/js/jquery.min.js"></script>
 
 <iframe id="articles" src="/"></iframe>
-<a class="twitter-timeline" id="tweets" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
     window.setInterval(function() {
-        document.getElementById('iframe').contentWindow.location.reload();
+        document.getElementById('articles').contentWindow.location.reload();
         document.getElementsByClass('twitter-timeline')[0].contentWindow.location.reload();
     }, 60000);
 </script>
