@@ -8,6 +8,9 @@
 .mdc-typography--caption-text {
     font-style: italic;
 }
+.mdc-typography--headline5 {
+    margin-bottom: 5px;
+}
 
 
 /* adjust video dimensions depending on screen size */
