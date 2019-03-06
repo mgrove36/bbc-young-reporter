@@ -2,49 +2,55 @@
     {% assign article_list_displayed = false %}
     {% for article in site.categories.articles %}
         {% if article.url != page.url %}
-        {% for author in article.authors %}
-                {% for current_author in page.authors %}
-                    {% if author == current_author %}
-                        {% if article_list_displayed == false %}
-                        <h2 class="mdc-typography--headline5">
-                            {% if page.authors.first %}
-                            Other Articles By These Authors
-                            {% else %}
-                            Other Articles By This Author
-                            {% endif %}
-                        </h2>
-                        <!-- define carousel -->
-                        <div class="carousel">
-                        {% assign article_list_displayed = true %}
+        {% assign authors = article.authors | split: ", " %}
+        {% for author in authors %}
+            {% if article.date | date: "%Y" == page.date | date: "%Y" %}
+            {% assign current_authors = page.authors | split: ", " %}
+            {% for current_author in current_authors %}
+                {% if author == current_author %}
+                    {% if article_list_displayed == false %}
+                    <h2 class="mdc-typography--headline5">
+                        {% if current_authors.first %}
+                        Other Articles By These Authors
+                        {% else %}
+                        Other Articles By This Author
                         {% endif %}
-                        <!-- display article -->
-                        <div class="mdc-card carousel-item">
-                            <div class="mdc-card__media mdc-card__media--16-9 {{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }}"></div>
-                            <div class="mdc-card-content">
-                                <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
-                                <h3 class="mdc-typography--subtitle2">
-                                    <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
-                                     | by {{ article.authors }}
-                                </h3>
-                            </div>
-                            <div class="mdc-card__actions">
-                                <div class="mdc-card__action-buttons">
-                                    <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='{{ article.url | relative_url }}';">Read</button>
-                                </div>
-                            </div>
-
-                            <style>
-                                .{{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }} {
-                                    background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--cover.jpg");
-                                }
-                            </style>
-                        </div>
-                        {% break %}
+                    </h2>
+                    <!-- define carousel -->
+                    <div class="carousel">
+                    {% assign article_list_displayed = true %}
                     {% endif %}
-                {% endfor %}
+                    <!-- display article -->
+                    <div class="mdc-card carousel-item">
+                        <div class="mdc-card__media mdc-card__media--16-9 {{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }}"></div>
+                        <div class="mdc-card-content">
+                            <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
+                            <h3 class="mdc-typography--subtitle2">
+                                <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
+                                 | by {{ article.authors }}
+                            </h3>
+                        </div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='{{ article.url | relative_url }}';">Read</button>
+                            </div>
+                        </div>
+
+                        <style>
+                            .{{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }} {
+                                background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--cover.jpg");
+                            }
+                        </style>
+                    </div>
+                    {% break %}
+                    {% endif %}
             {% endfor %}
+            {% endif %}
+        {% endfor %}
         {% endif %}
     {% endfor %}
+    {% if article_list_displayed == true %}
     <!-- close carousel -->
     </div>
+    {% endif %}
 {% endif %}
