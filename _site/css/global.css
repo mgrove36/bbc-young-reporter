@@ -28,6 +28,10 @@ a {
     overflow: auto;
 }
 
+.mdc-drawer {
+    width: 350px;
+}
+
 .main-content {
     margin: 15px;
     overflow: auto;
