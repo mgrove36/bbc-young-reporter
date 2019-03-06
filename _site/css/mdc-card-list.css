@@ -18,14 +18,14 @@
 
 /* automatically display articles on either side of the page, alternating */
 .main-content .mdc-card {
-	float: left;
-	clear: left;
+	float: right;
+	clear: right;
 	width: calc(50% - 6px);
 }
 
 .main-content .mdc-card:nth-of-type(even) {
-	float: right;
-	clear: right;
+	float: left;
+	clear: left;
 }
 
 
