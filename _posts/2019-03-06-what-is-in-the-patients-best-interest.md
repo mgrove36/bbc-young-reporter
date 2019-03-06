@@ -2,7 +2,7 @@
 title: What Is 'In The Patient's Best Interest’?
 date: 2019-03-06 11:46
 authors: Aadith C
-image-caption: Disagreements, difficult decisions and assisted dying. What is 'in the patient's best interest'?
+image-caption: Disagreements, difficult decisions and assisted dying. What is 'in the patient's best interest'? | &copy; BBC
 layout: image-article
 categories: articles
 ---
