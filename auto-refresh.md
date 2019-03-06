@@ -4,16 +4,22 @@ description: News articles written by Reading School students in year 8
 layout: none
 ---
 
-<script src="/js/jquery.min.js"></script>
-
-<iframe id="articles" src="/"></iframe>
+<iframe id="articles-1" class="articles" src="/"></iframe>
+<iframe id="articles-2" class="articles" src="/"></iframe>
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
     window.setInterval(function() {
-        document.getElementById('articles').contentWindow.location.reload();
+        document.getElementById('articles-1').style.zIndex = "2";
+        document.getElementById('articles-2').style.zIndex = "1";
+        document.getElementById('articles-2').contentWindow.location.reload();
         document.getElementsByClass('twitter-timeline')[0].contentWindow.location.reload();
-    }, 10000);
+        setTimeout(function() {
+            document.getElementById('articles-2').style.zIndex = "2";
+            document.getElementById('articles-1').style.zIndex = "1";
+            document.getElementById('articles-1').contentWindow.location.reload();
+        }, 10000)
+    }, 20000);
 </script>
 
 <style>
@@ -26,9 +32,17 @@ layout: none
         padding: 0;
         border: none;
     }
-    #articles {
+    .articles {
         width: 70%;
-        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #articles-1 {
+        z-index: 2;
+    }
+    #articles-2 {
+        z-index: 1;
     }
     .twitter-timeline {
         width: 30% !important;
