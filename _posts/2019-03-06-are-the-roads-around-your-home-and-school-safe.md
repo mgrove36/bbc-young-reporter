@@ -23,12 +23,12 @@ There are three main types of collisions on roads: pedestrian/cyclist collision,
 
 <figure>
     <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">A graph showing the probability of fatality for motor accidents | &copy;</figcaption>
+    <figcaption class="mdc-typography--caption-text">A graph showing the probability of fatality for motor accidents | &copy; Getty</figcaption>
 </figure>
 
 Reading School’s Head Master Mr Robson has recently given students advice on how to keep themselves safe when walking home, recommending that they do not take out their mobile devices and instead pay attention to their surroundings.  RoSPA also says that young pedestrians should wear reflective clothing during winter months and practice the Green Cross Code.
 
 <figure>
     <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-2.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">An example of cars blocking the path for disabled and elderly people | &copy;</figcaption>
+    <figcaption class="mdc-typography--caption-text">An example of cars blocking the path for disabled and elderly people | &copy; BBC</figcaption>
 </figure>
