@@ -1,8 +1,8 @@
 ---
-title: Student Survey Shows Rosa Parks Is Most Inspirational Woman Ever
+title: Are The Roads Around Your Home And School Safe
 date: 2019-03-06 14:46
 authors: Riley C, Oliver C
-image-caption: Rosa Parks - who topped the poll | &copy; BBC
+image-caption: An example of a car parking on a double yellow line | &copy; Getty
 layout: image-article
 categories: articles
 ---
@@ -23,12 +23,12 @@ There are three main types of collisions on roads: pedestrian/cyclist collision,
 
 <figure>
     <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">The results from our student survey | &copy; Reading School</figcaption>
+    <figcaption class="mdc-typography--caption-text">A graph showing the probability of fatality for motor accidents | &copy;</figcaption>
 </figure>
 
 Reading School’s Head Master Mr Robson has recently given students advice on how to keep themselves safe when walking home, recommending that they do not take out their mobile devices and instead pay attention to their surroundings.  RoSPA also says that young pedestrians should wear reflective clothing during winter months and practice the Green Cross Code.
 
 <figure>
     <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-2.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">The results from our student survey | &copy; Reading School</figcaption>
+    <figcaption class="mdc-typography--caption-text">An example of cars blocking the path for disabled and elderly people | &copy;</figcaption>
 </figure>
