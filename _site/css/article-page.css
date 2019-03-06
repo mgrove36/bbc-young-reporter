@@ -1,8 +1,8 @@
 /* make text look nice */
-.mdc-typography--headline2, .mdc-typography--subtitle1 {
+.mdc-typography--headline3, .mdc-typography--subtitle1 {
     text-transform: capitalize;
 }
-.mdc-typography--headline2, .mdc-typography--subtitle1, figure {
+.mdc-typography--headline3, .mdc-typography--subtitle1, figure {
    margin: 5px;
 }
 .mdc-typography--caption-text {
