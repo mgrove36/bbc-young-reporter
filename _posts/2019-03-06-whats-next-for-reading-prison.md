@@ -13,7 +13,7 @@ In June 2014, it was proposed locally that Reading Gaol should be turned into a 
 
 So what is happening now?
 
-Various options have been considered; flats, low-rise housing and a new school amonNameg them. The most popular plan locally, however, is transforming the site into a theatre and arts venue.
+Various options have been considered; flats, low-rise housing and a new school among them. The most popular plan locally, however, is transforming the site into a theatre and arts venue.
 
 In 2013, a group of people from Reading’s business and art communities formed Theatre and Arts Reading (TAR) with the aim of finding a new theatre and arts venue for Reading.  Following the closure of the prison, TAR announced its interest in the site of Reading Gaol for this venture.
 
