@@ -7,7 +7,7 @@ layout: image-article
 categories: articles
 ---
 
-With Fortnite Season 8 unveiled last week, Tom Clancy’s Rainbow 6 Siege Year 4 beginning yesterday and two of the world’s most anticipated games, Red Dead Redemption 2 and Call of Duty: Black Ops 4, just released, there’s no better time for young people to be educated on how to stay safe while gaming. Xbox player and Rainbow 6 enthusiast Kamran Seal reports on the issues to do with bullying in video games.
+With Fortnite Season 8 unveiled last week, Tom Clancy’s Rainbow 6 Siege Year 4 beginning yesterday and two of the world’s most anticipated games, Red Dead Redemption 2 and Call of Duty: Black Ops 4, just released, there’s no better time for young people to be educated on how to stay safe while gaming. Xbox player and Rainbow 6 enthusiast Kamran S reports on the issues to do with bullying in video games.
 
 Three Reading School gamers were involved in a situation where one of them had been playing online with another player they didn’t know who sent him a pornographic image “as a joke”. When speaking about how he tackled the situation he said, “I didn’t want to lose the privilege of playing on the Playstation”, that was the reason he didn’t tell his parents. The other two students he told took it upon themselves to sort it out and tell their school what the victim couldn’t because he thought he would get in trouble. This proves that awareness needs to be raised as the victim didn’t know what to do, in fear that he would not be able to play on his PlayStation.
 
