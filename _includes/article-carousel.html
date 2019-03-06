@@ -45,8 +45,12 @@
                         </style>
                     </div>
                     {% break %}
+                    {% assign break = true %}
                     {% endif %}
             {% endfor %}
+            {% endif %}
+            {% if break == true %}
+            {% break %}
             {% endif %}
         {% endfor %}
         {% endif %}
