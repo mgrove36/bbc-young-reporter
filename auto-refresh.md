@@ -37,6 +37,7 @@ layout: none
         position: absolute;
         top: 0;
         left: 0;
+        background: white;
     }
     #articles-1 {
         z-index: 2;
