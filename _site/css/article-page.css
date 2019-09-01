@@ -92,3 +92,8 @@ iframe {
 .slick-dotted.slick-slider {
     margin-bottom: 13px;
 }
+
+/* align article carousel title with carousel items */
+.article-carousel-title {
+    text-align: center;
+}
