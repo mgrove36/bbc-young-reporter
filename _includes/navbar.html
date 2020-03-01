@@ -30,8 +30,6 @@
                         <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
                         <span class="mdc-list-item__text">{{ article.title }}</span>
                     </a>
-                    {% if currentdate != date %}
-                    {% endif %}
                     {% if article.url == site.categories.articles.last.url %}
                     </div>
                     {% endif %}
