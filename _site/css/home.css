@@ -1,0 +1,98 @@
+html, body {
+    background-color: var(--mdc-theme-primary);
+}
+.footer-container {
+    background: #ffffff;
+    padding: 5px 0;
+}
+
+.mdc-top-app-bar--short-fixed-adjust {
+    padding-top: 41px;
+}
+.article-section {
+    position: relative;
+    z-index: 0;
+    display: flow-root;
+    background-image: url("/images/backgrounds/2019.jpg");
+}
+.main-content .mdc-card {
+	float: left;
+    width: calc((100% / 3) - 12px);
+    box-shadow: none;
+}
+.mdc-card {
+    margin: 6px 6px 10px 6px;
+    background: none;
+}
+.main-content {
+    margin-left: 0;
+    margin-right: 0;
+}
+.article-section-header {
+    background-color: rgba(255,255,255,0.8);
+}
+.article-section-header h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 6px;
+    display: inline;
+}
+.article-section-header button {
+    display: inline;
+    padding: 5px 14px;
+    position: relative;
+    float: right;
+    top: 3.5px;
+}
+.article-section-header button span {
+    position: relative;
+    left: 0;
+    top: 1.25px;
+    transition: left 0.1s linear;
+    height: 100%;
+    font-size: inherit;
+}
+.article-section-header button:hover span {
+    left: 3px;
+}
+.article-section .articles, .article-section-header {
+    padding: 12px 15% 12px 15%;
+}
+.splitter {
+    height: 15px;
+    width: 100%;
+    background-color: var(--mdc-theme-primary);
+}
+.article-section:nth-of-type(3) {
+    background: #ffffff;
+}
+.article-section:nth-of-type(3) #jarallax-container-1 {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .article-section .articles, .article-section-header {
+        padding: 12px 8% 12px 8%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .article-section .articles, .article-section-header {
+        padding: 12px 2% 12px 2%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .article-section .mdc-card:nth-of-type(3) {
+        display: none;
+    }
+    .article-section .mdc-card {
+        width: calc((100% / 2) - 12px);
+    }
+}
+@media screen and (max-width: 350px) {
+    .article-section .mdc-card:nth-of-type(2) {
+        display: none;
+    }
+    .article-section .mdc-card {
+        width: calc((100% / 1) - 12px);
+    }
+}

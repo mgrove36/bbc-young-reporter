@@ -1,0 +1,63 @@
+/* automatically display articles on either side of the page, alternating */
+.main-content .mdc-card {
+	float: right;
+	clear: right;
+	width: calc(50% - 6px);
+}
+
+.main-content .mdc-card:nth-of-type(even) {
+	float: left;
+	clear: left;
+}
+
+
+/* make first article full-width */
+.main-content .mdc-card:first-of-type {
+	float: none;
+	clear: both;
+    width: auto;
+}
+
+
+/* makes last article full-width if it is on its own in a row - i.e. if there is an even number of articles in total */
+.main-content .mdc-card:nth-of-type(odd):nth-last-of-type(2) ~ .mdc-card:last-of-type {
+    float: none;
+    clear: both;
+    width: auto;
+}
+
+
+/* styling for when 1 article present */
+.main-content .mdc-card:first-of-type:last-of-type {
+  float: none;
+  clear: both;
+  width: auto;
+}
+
+
+/* styling for when 2 articles present & small screen is detected */
+@media screen and (max-width: 1000px) {
+  .main-content .mdc-card:nth-child(1):nth-last-of-type(2), .main-content .mdc-card:nth-of-type(2):last-of-type {
+    float: none;
+    clear: both;
+    width: auto;
+  }
+}
+
+
+/* styling for when 3 articles present */
+.main-content .mdc-card:first-of-type:nth-last-of-type(3) {
+  float: none;
+  clear: both;
+  width: auto;
+}
+
+.main-content .mdc-card:nth-of-type(3):last-of-type {
+  float: right;
+  clear: right;
+}
+
+.main-content .mdc-card:nth-of-type(2):nth-last-of-type(2) {
+  float: left;
+  clear: left;
+}

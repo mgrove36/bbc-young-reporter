@@ -1,38 +1,18 @@
 ---
 title: BBC Young Reporter
 description: News articles written by Reading School students in year 8
-layout: home
+layout: article-list
 ---
 
 {% if site.categories.articles %}
-{% assign currentdate_count = 0 %}
-{% assign articles = site.categories.articles | sort: date | reverse %}
-{% for article in articles %}
-{% assign currentdate = article.date | date: "%Y" %}
-{% if currentdate != date %}
-{% assign currentdate_count = 0 %}
-{% if article.url != articles.first.url %}
-    </div>
-</div>
-<div class="splitter"></div>
-{% endif %}
-<div class="article-section" data-jarallax data-speed="0.4">
-    <div class="article-section-header">
-        <h1>{{ currentdate }}</h1>
-        <button class="mdc-button mdc-button--outlined" data-mdc-auto-init="MDCRipple" onclick="window.location='URL';">Read More <span class="material-icons">keyboard_arrow_right</span></button>
-    </div>
-    <div class="articles">
-{% assign date = currentdate %}
-{% endif %}
-{% if currentdate_count < 3 %}
-{% assign currentdate_count = currentdate_count | plus: 1 %}
+{% for article in site.categories.articles %}
 <div class="mdc-card">
     <div class="mdc-card__media mdc-card__media--16-9 {{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }}"></div>
     <div class="mdc-card-content">
         <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
         <h3 class="mdc-typography--subtitle2">
             <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
-            | by {{ article.authors }}
+             | by {{ article.authors }}
         </h3>
     </div>
     <div class="mdc-typography--body2">{{ article.description }}</div>
@@ -42,17 +22,18 @@ layout: home
         </div>
     </div>
 </div>
+
 <style>
     .{{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }} {
         background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--cover.jpg");
     }
 </style>
-{% endif %}
-{% if currentdate != date %}
-{% endif %}
-{% if article.url == articles.last.url %}
-    </div>
-</div>
-{% endif %}
 {% endfor %}
+{% else %}
+<center>We haven't got any articles for you yet! Come back during this year's BBC Young Reporter day to see what Reading School's year 8 students have produced!</center>
+<style>
+    center {
+        margin: 25vh auto 25vh auto;
+    }
+</style>
 {% endif %}
