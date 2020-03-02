@@ -4,7 +4,6 @@
     <link href="/css/mdc-card-list.css" rel="stylesheet">
     <link href="/css/home.css" rel="stylesheet">
     <script src="/js/home.js"></script>
-    <script src="/js/jarallax.min.js"></script>
     <body>
         <!-- cookie notice is included automatically -->
         {% include cookie-notice.html %}
@@ -20,10 +19,7 @@
                     {{ content }}
                 </div>
             </main>
-            <div class="footer-container">
-                {% include footer.html %}
-            </div>
-            {% include top-scroll-button.html %}
+            {% include footer.html %}
         </div>
     </body>
 </html>

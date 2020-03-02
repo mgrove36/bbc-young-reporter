@@ -16,10 +16,10 @@ layout: home
 </div>
 <div class="splitter"></div>
 {% endif %}
-<div class="article-section" data-jarallax data-speed="0.4">
+<div class="article-section parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
     <div class="article-section-header">
         <h1>{{ currentdate }}</h1>
-        <button class="mdc-button mdc-button--outlined" data-mdc-auto-init="MDCRipple" onclick="window.location='URL';">Read More <span class="material-icons">keyboard_arrow_right</span></button>
+        <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/{{ currentdate }}';">Read More <span class="material-icons">keyboard_arrow_right</span></button>
     </div>
     <div class="articles">
 {% assign date = currentdate %}
@@ -44,7 +44,7 @@ layout: home
 </div>
 <style>
     .{{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }} {
-        background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--cover.jpg");
+        background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg");
     }
 </style>
 {% endif %}

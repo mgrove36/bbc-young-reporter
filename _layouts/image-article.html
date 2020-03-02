@@ -14,18 +14,18 @@
 
             <main class="main-content" id="main-content">
                 <div class="mdc-top-app-bar--short-fixed-adjust">
-                    <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
+                    <div class="parallax-section article-title-section" data-jarallax data-speed="0.4" style="background-image: url('/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');">
+                        <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
+                    </div>
+                    <figcaption class="mdc-typography--caption-text">{{ page.image-caption }}</figcaption>
+
                     <h3 class="mdc-typography--subtitle1">
                         <time class="timeago" datetime="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%H:%M:%S' }}">{{ page.date | date: '%A %e %B %Y' }}</time>
                          | by {{ page.authors }}
                     </h3>
-                    <figure>
-                        <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--cover.jpg" style="width:100%;">
-                        <figcaption class="mdc-typography--caption-text">{{ page.image-caption }}</figcaption>
-                    </figure>
-                    {{ content }}
-
-                    {% include article-carousel.html %}
+                    <div class="article-content">
+                        {{ content }}
+                    </div>
                 </div>
             </main>
             {% include footer.html %}
