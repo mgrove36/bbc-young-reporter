@@ -84,11 +84,10 @@ footer {
     z-index: 0;
     display: flow-root;
 }
-.parallax-section #jarallax-container-0 div, .parallax-section #jarallax-container-1 div {
-    background-color: rgba(0,0,0,0.45);
+.parallax-section > div:last-child > div {
+    background-color: rgba(50,50,50,0.9);
     background-blend-mode: multiply;
 }
-
 
 /* splitter for between sections */
 .splitter {
@@ -96,7 +95,6 @@ footer {
     width: 100%;
     background-color: var(--mdc-theme-primary);
 }
-
 
 /* responsive side margins */
 .article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {

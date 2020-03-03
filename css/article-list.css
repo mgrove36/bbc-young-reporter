@@ -5,13 +5,17 @@
     margin: 6px;
     display: inline;
 }
-
 .article-section-header, .year-header {
-    background-color: rgba(50,50,50,0.9);
+    background-color: rgba(0,0,0,0.6);
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
+/* main list of articles */
+.articles {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
 /* make cards display next to each other with correct dimensions and adjust styling */
 .main-content .mdc-card {
@@ -23,16 +27,13 @@
     cursor: pointer;
 }
 
-
 /* style cards */
 .mdc-card-content {
     margin: 5px 15px 5px 15px;
 }
-
 .mdc-card .mdc-typography--headline6, .mdc-card .mdc-typography--subtitle2 {
     margin: 0;
 }
-
 .mdc-card .mdc-typography--headline6 {
     text-transform: capitalize;
 }

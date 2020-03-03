@@ -7,6 +7,4 @@
 /* list of articles */
 .articles {
     background-color: var(--mdc-theme-background);
-    padding-top: 12px;
-    padding-bottom: 12px;
 }

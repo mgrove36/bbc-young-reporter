@@ -1,9 +1,16 @@
+/* centre contents vertically */
+.article-section-header {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
 /* place button on right */
 .article-section-header button {
     display: inline;
     padding: 5px 14px;
     position: relative;
-    float: right;
+    margin-left: auto;
     top: 3.5px;
 }
 
