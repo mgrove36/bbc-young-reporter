@@ -1,49 +1,119 @@
 /* change theme */
 :root {
-    --mdc-theme-primary: #273967;
-    --mdc-theme-secondary: #ef6c00;
+    --mdc-theme-primary: #253a67;
+    --mdc-theme-secondary: #ea6343;
+    --mdc-theme-background: #181a1b;
 }
-
-.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label, .mdc-list-item--activated .mdc-list-item__text, .mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
-   color: var(--mdc-theme-primary);
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin: 0;
+    background-color: var(--mdc-theme-primary);
+    color: #ffffff;
 }
-
+.mdc-drawer {
+    background-color: var(--mdc-theme-background);
+}
+.mdc-drawer *, .mdc-drawer .material-icons, .mdc-drawer h3 {
+    color: #ddd;
+}
+.mdc-drawer .mdc-list-group__subheader {
+    color: #ccc;
+}
+.mdc-button:not(:disabled) {
+    color: var(--mdc-theme-secondary);
+    border-color: var(--mdc-theme-secondary);
+}
+.mdc-button::before, .mdc-button::after {
+    background-color: var(--mdc-theme-secondary);
+}
 a {
     color: var(--mdc-theme-secondary);
 }
+/* navbar buttons */
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label, .mdc-list-item--activated .mdc-list-item__text, .mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
+    color: var(--mdc-theme-secondary);
+}
+:not(.mdc-list--non-interactive)>:not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive)>:not(.mdc-list-item--disabled).mdc-list-item--activated::after {
+    background-color: var(--mdc-theme-secondary);
+}
 
+/* change cursor on top app bar */
+.mdc-top-app-bar__title {
+    cursor: pointer;
+}
+
+/* remove margin above main content */
+.mdc-top-app-bar--short-fixed-adjust {
+    padding-top: 41px;
+}
+
+/* make content display properly */
 .mdc-list-group h3 {
     margin: 20px 16px auto 16px;
     font-weight: normal;
 }
-
 .mdc-drawer-app-content {
     flex: auto;
     overflow: auto;
 }
-
 .mdc-drawer {
     width: 350px;
 }
-
 .main-content {
-    margin: 15px;
+    margin: 15px 0;
     overflow: auto;
 }
-
 .app-bar {
     position: absolute;
 }
 
+/* footer */
+.footer-container {
+    background: var(--mdc-theme-background);
+    padding: 5px 0;
+}
 footer {
     margin: 15px;
     overflow: auto;
+}
+
+/* parallax backgrounds */
+.parallax-section {
+    position: relative;
+    z-index: 0;
+    display: flow-root;
+}
+.parallax-section #jarallax-container-0 div, .parallax-section #jarallax-container-1 div {
+    background-color: rgba(0,0,0,0.45);
+    background-blend-mode: multiply;
+}
+
+
+/* splitter for between sections */
+.splitter {
+    height: 15px;
+    width: 100%;
+    background-color: var(--mdc-theme-primary);
+}
+
+
+/* responsive side margins */
+.article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+@media screen and (max-width: 1000px) {
+    .article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
 
 /* edit footer depending on screen size - edits alignment & changes switches between center- and left- aligned BBC Young Reporter logos */
@@ -51,7 +121,6 @@ footer span {
   position: relative;
   top: 19px;
 }
-
 footer img {
   display: block;
   width: 125px;
@@ -59,7 +128,6 @@ footer img {
   content: url("/images/young-reporter-logo.png");
   vertical-align: middle;
 }
-
 @media screen and (max-width: 800px) {
     footer {
       text-align: center;
@@ -76,25 +144,7 @@ footer img {
     }
 }
 
-/* add side margins */
-.main-content, footer {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-@media screen and (max-width: 600px) {
-    .main-content, footer {
-        margin-left:  5%;
-        margin-right: 5%;
-    }
-}
-@media screen and (max-width: 500px) {
-    .main-content, footer {
-        margin-left:  2%;
-        margin-right: 2%;
-    }
-}
-
-/* for cookie notice */
+/* cookie notice */
 #cookies {
     display: none;
     width: 100%;
@@ -106,18 +156,15 @@ footer img {
     left: 0;
     z-index: 1;
 }
-
 #cookies p {
     margin: 10px;
 }
-
 #cookies p a {
     color: var(--mdc-theme-secondary);
     text-decoration: none;
 }
 
-
-/* for scroll-to-top button */
+/* scroll-to-top button */
 .top-scroll-button {
     width: 50px;
     height: 50px;
@@ -136,7 +183,6 @@ footer img {
     -o-transition-duration: 0.25s;
     transition-duration: 0.25s;
 }
-
 .top-scroll-button img {
     position: relative;
     top: 7px;
@@ -147,11 +193,9 @@ footer img {
     -o-transition-duration: 0.25s;
     transition-duration: 0.25s;
 }
-
 .top-scroll-button:hover, .top-scroll-button:focus {
     background-color: #1C2E56;
 }
-
 .top-scroll-button:hover img {
     top: 3px;
 }
