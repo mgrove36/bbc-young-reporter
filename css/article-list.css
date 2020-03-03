@@ -6,7 +6,7 @@
     display: inline;
 }
 .article-section-header, .year-header {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
     padding-top: 12px;
     padding-bottom: 12px;
 }

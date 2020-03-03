@@ -85,7 +85,7 @@ footer {
     display: flow-root;
 }
 .parallax-section > div:last-child > div {
-    background-color: rgba(50,50,50,0.9);
+    background-color: rgba(50,50,50,0.75);
     background-blend-mode: multiply;
 }
 
