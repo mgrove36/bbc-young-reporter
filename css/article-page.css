@@ -7,93 +7,59 @@
 }
 .mdc-typography--caption-text {
     font-style: italic;
+    margin: 5px;
 }
 .mdc-typography--headline5 {
     margin-bottom: 5px;
 }
 
+/* change background */
+.article-content {
+    background-color: var(--mdc-theme-background);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* hide empty black bar if there is no content to the article */
+.article-content:empty {
+    display: none;
+}
+
+/* position headline in middle of image */
+.parallax-section {
+    text-align: center;
+    vertical-align: middle;
+    padding: 150px 15px;
+}
 
 /* adjust video dimensions depending on screen size */
 iframe {
     width: 100%;
     height: calc(68.8vw / 16 * 9);
 }
-
 @media screen and (max-width: 1550px) {
     iframe {
       width: 100%;
         height: calc(70vw / 16 * 9 - 6px);
     }
 }
-
 @media screen and (max-width: 800px) {
     iframe {
       height: calc(90vw / 16 * 9 - 5px);
     }
     .mdc-typography--headline3, .mdc-typography--headline5 {
-        font-size: 1.5rem;
-        line-height: 1.625rem;
+        font-size: 2.5rem;
+        line-height: 2.625rem;
     }
 }
-
+@media screen and (max-width: 400px) {
+    .mdc-typography--headline3, .mdc-typography--headline5 {
+        font-size: 2rem;
+        line-height: 2.125rem;
+    }
+}
 @media screen and (max-width: 600px) {
     iframe {
         height: calc(93.5vw / 16 * 9);
     }
-}
-
-
-/* make article cards look nice by altering margins */
-.mdc-card-content {
-    margin: 5px 15px 5px 15px;
-}
-
-.mdc-card .mdc-typography--headline6, .mdc-card .mdc-typography--subtitle2 {
-    margin: 0;
-}
-
-
-/* change carousel dots' styling to make them more visible */
-.slick-dots {
-    position: relative;
-    bottom: 0;
-    margin: auto;
-}
-
-.slick-dots li button:before {
-    font-size: 30px;
-    opacity: 1;
-    color: #ababab;
-}
-
-.slick-dots li.slick-active button::before {
-    font-size: 40px;
-    opacity: 1;
-    color: var(--mdc-theme-primary);
-}
-
-
-/* ensure buttons don't get in the way & enable scrolling */
-.slick-next {
-    right: 0;
-}
-
-.slick-prev {
-    left: 0;
-}
-
-
-/* ensure MDC cards are separated enough that they are distinguishable */
-.carousel-item {
-    margin: 4px;
-}
-
-/* remove excessive margin below carousel */
-.slick-dotted.slick-slider {
-    margin-bottom: 13px;
-}
-
-/* align article carousel title with carousel items */
-.article-carousel-title {
-    text-align: center;
 }

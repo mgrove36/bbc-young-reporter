@@ -1,0 +1,43 @@
+/* place button on right */
+.article-section-header button {
+    display: inline;
+    padding: 5px 14px;
+    position: relative;
+    float: right;
+    top: 3.5px;
+}
+
+/* animate button on hover */
+.article-section-header button span {
+    position: relative;
+    left: 0;
+    top: 1.25px;
+    transition: left 0.1s linear;
+    font-size: inherit;
+}
+.article-section-header button:hover span {
+    left: 4px;
+}
+
+/* alternate section backgrounds */
+.article-section:nth-of-type(3n) {
+    background: var(--mdc-theme-background);
+}
+.article-section:nth-of-type(3n) > div:nth-of-type(3), .article-section:nth-of-type(3n+2) > div:nth-of-type(3) {
+    display: none;
+}
+.article-section:nth-of-type(3n+2) {
+    background: var(--mdc-theme-primary);
+}
+
+/* hide articles on smaller screen sizes */
+@media screen and (max-width: 600px) {
+    .article-section .mdc-card:nth-of-type(3) {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .article-section .mdc-card:nth-of-type(2) {
+        display: none;
+    }
+}
