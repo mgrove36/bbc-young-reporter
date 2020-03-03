@@ -4,8 +4,21 @@ description: News articles written by Reading School students in year 8
 layout: none
 ---
 
-<iframe id="articles-1" class="articles" src="/"></iframe>
-<iframe id="articles-2" class="articles" src="/"></iframe>
+{% assign largest = 0 %}
+{% for page in site.pages %}
+{% assign url = page.url | remove: ".html" | remove: "/" %}
+{% capture testValue %}{{ url | json }}{% endcapture %}
+{% if testValue contains '"' %}{% else %}
+{% assign largest_number = largest | times: 1 %}
+{% assign url_number = url | times: 1 %}
+{% if url_number > largest_number %}
+{% assign largest = url %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<iframe id="articles-1" class="articles" src="/{{ largest }}"></iframe>
+<iframe id="articles-2" class="articles" src="/{{ largest }}"></iframe>
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
