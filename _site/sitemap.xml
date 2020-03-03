@@ -4,41 +4,8 @@
     
     
     <url>
-        <loc>/2018.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>/2019.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>/2020.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    
-    
-    
-    
-    <url>
         <loc>/404.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -49,7 +16,7 @@
     
     <url>
         <loc>/auto-refresh.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -60,7 +27,7 @@
     
     <url>
         <loc>/</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -74,106 +41,78 @@
 
     
     <url>
-        <loc>/articles/2020/03/02/test2.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/articles/2020/03/02/test1.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/articles/2020/03/01/test.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>/articles/2019/03/06/finished-product.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/are-the-roads-around-your-home-and-school-safe.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/student-survey-shows-rosa-parks-is-most-inspirational-woman-ever.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/book-week-real-life-issues-inspire-sarah-govett.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/a-possible-autism-anorexia-link-has-been-found-so-what-are-we-doing-about-it.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/could-sky-high-aims-bring-reading-down.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/tennis-club-needs-to-relocate-as-redevelopment-plans-are-called-out.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/video-games-virtual-fantasy-or-a-virtual-prison.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/what-is-in-the-patients-best-interest.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/whats-next-for-reading-prison.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/articles/2019/03/06/young-reporter-team-ready-to-go.html</loc>
-        <lastmod>2020-03-03</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/articles/2018/03/06/test.html</loc>
-        <lastmod>2020-03-03</lastmod>
+        <lastmod>2019-09-01</lastmod>
         <changefreq>hourly</changefreq>
         <priority>0.5</priority>
     </url>
