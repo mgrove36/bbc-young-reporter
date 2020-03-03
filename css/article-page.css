@@ -16,8 +16,8 @@
 /* change background */
 .article-content {
     background-color: var(--mdc-theme-background);
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* hide empty black bar if there is no content to the article */
@@ -30,6 +30,11 @@
     text-align: center;
     vertical-align: middle;
     padding: 150px 15px;
+}
+
+/* audio */
+.article-content audio {
+    width: 100%;
 }
 
 /* adjust video dimensions depending on screen size */

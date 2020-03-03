@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    {% include article-page-head.html %}
+    <body>
+        <!-- cookie notice is included automatically -->
+        {% include cookie-notice.html %}
+
+        <!-- content of navbar is included via jQuery -->
+        {% include navbar.html %}
+
+        <div class="mdc-drawer-app-content">
+            {% include top-app-bar.html %}
+
+            <main class="main-content" id="main-content">
+                <div class="mdc-top-app-bar--short-fixed-adjust">
+                    <div class="parallax-section article-title-section" data-jarallax data-speed="0.4"
+                        style="background-image: url('/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');">
+                        <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
+                    </div>
+                    <figcaption class="mdc-typography--caption-text">{{ page.image-caption }}</figcaption>
+                    
+                    <h3 class="mdc-typography--subtitle1">
+                        <time class="timeago"
+                            datetime="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%H:%M:%S' }}">{{ page.date | date: '%A %e %B %Y' }}</time>
+                        | by {{ page.authors }}
+                    </h3>
+                    <div class="article-content">
+                        <audio controls>
+                            <source src="{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.ogg" type="audio/ogg">
+                            <source src="{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.mp3" type="audio/mpeg">
+                            Sorry, but audio can't be played on your device.
+                        </audio>
+                        <figcaption class="mdc-typography--caption-text">{{ page.audio-caption }}</figcaption>
+                        {{ content }}
+                    </div>
+                    <div class="splitter"></div>
+                </div>
+            </main>
+            {% include footer.html %}
+            {% include top-scroll-button.html %}
+        </div>
+    </body>
+</html>
