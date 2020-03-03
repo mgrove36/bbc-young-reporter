@@ -34,8 +34,8 @@ layout: home
             <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
             | by {{ article.authors }}
         </h3>
+        <div class="mdc-typography--body2 article-description">{{ article.description }}</div>
     </div>
-    <div class="mdc-typography--body2">{{ article.description }}</div>
     <div class="mdc-card__actions">
         <div class="mdc-card__action-buttons">
             <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='{{ article.url | relative_url }}';">Read</button>

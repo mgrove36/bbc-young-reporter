@@ -5,6 +5,7 @@ authors: Hal R-D
 image-caption: A rainy winters day at Caversham lawn tennis club | &copy; Reading School
 layout: image-article
 categories: articles
+description: A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.
 ---
 
 *A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.*

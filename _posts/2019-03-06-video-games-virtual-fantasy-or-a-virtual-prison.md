@@ -5,6 +5,7 @@ authors: Kamran S
 image-caption: Fortnite - one of the world's biggest video games | &copy; Getty
 layout: image-article
 categories: articles
+description: "With Fortnite Season 8 unveiled last week, Tom Clancy’s Rainbow 6 Siege Year 4 beginning yesterday and two of the world’s most anticipated games, Red Dead Redemption 2 and Call of Duty: Black Ops 4, just released, there’s no better time for young people to be educated on how to stay safe while gaming. Xbox player and Rainbow 6 enthusiast Kamran S reports on the issues to do with bullying in video games."
 ---
 
 With Fortnite Season 8 unveiled last week, Tom Clancy’s Rainbow 6 Siege Year 4 beginning yesterday and two of the world’s most anticipated games, Red Dead Redemption 2 and Call of Duty: Black Ops 4, just released, there’s no better time for young people to be educated on how to stay safe while gaming. Xbox player and Rainbow 6 enthusiast Kamran S reports on the issues to do with bullying in video games.

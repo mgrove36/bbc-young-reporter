@@ -5,6 +5,7 @@ authors: Tom S-R, Ben S-R
 image-caption: A view of one of the prison buildings | &copy; BBC
 layout: image-article
 categories: articles
+description: After being shut 63 months ago, Reading Gaol has remained unused. Reading East MP Matt Rodda says, during this time, "The government has spent over one million pounds on just maintaining the site … whilst homelessness has increased in our borough [Reading East] by 700%." Currently a feasibility study is being undertaken by Theatre and Arts Reading (TAR) and is nearing completion. Mrs Scott, the TAR Executive Secretary said TAR hopes "to have some sort of public announcement in March which will update everyone on what is happening."
 ---
 
 **After being shut 63 months ago, Reading Gaol has remained unused. Reading East MP Matt Rodda says, during this time, "The government has spent over one million pounds on just maintaining the site … whilst homelessness has increased in our borough [Reading East] by 700%." Currently a feasibility study is being undertaken by Theatre and Arts Reading (TAR) and is nearing completion. Mrs Scott, the TAR Executive Secretary said TAR hopes "to have some sort of public announcement in March which will update everyone on what is happening."**

@@ -36,6 +36,10 @@
 .mdc-card .mdc-typography--headline6 {
     text-transform: capitalize;
 }
+.article-description {
+    margin-top: 6px;
+    font-style: italic;
+}
 
 
 /* change number of articles in each row depending on screen size */

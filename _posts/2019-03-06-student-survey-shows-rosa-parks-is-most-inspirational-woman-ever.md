@@ -5,6 +5,7 @@ authors: Tom S-R, Ben S-R
 image-caption: Rosa Parks - who topped the poll | &copy; BBC
 layout: image-article
 categories: articles
+description: Tomorrow is International Women’s Day (7th March 2019) and we went around our school finding out who people in the school environment thought was the most inspirational woman ever. 90 students and staff took part in the survey which crowned Rosa Parks as the winner.
 ---
 
 **Tomorrow is International Women’s Day (7th March 2019) and we went around our school finding out who people in the school environment thought was the most inspirational woman ever. 90 students and staff took part in the survey which crowned Rosa Parks as the winner.**
