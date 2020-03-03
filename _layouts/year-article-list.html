@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <link href="/css/mdc-card-list.css" rel="stylesheet">
+    <link href="/css/year-article-list.css" rel="stylesheet">
+    <body>
+        <!-- cookie notice is included automatically -->
+        {% include cookie-notice.html %}
+
+        <!-- content of navbar is included via jQuery -->
+        {% include navbar.html %}
+
+        <div class="mdc-drawer-app-content">
+            {% include top-app-bar.html %}
+
+            <main class="main-content" id="main-content">
+                <div class="mdc-top-app-bar--short-fixed-adjust">
+                    <div class="article-section parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
+                        <div class="article-section-header">
+                            <h1>{{ currentdate }}</h1>
+                            <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/{{ currentdate }}';">Read More <span class="material-icons">keyboard_arrow_right</span></button>
+                        </div>
+                        <div class="articles">
+                            {% assign articles = site.categories.articles | sort: date | reverse %}
+                            {% for article in articles %}
+                            {% if article.date | date: "%Y" == page.year %}
+                                <div class="mdc-card">
+                                    <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url('/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');"></div>
+                                    <div class="mdc-card-content">
+                                        <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
+                                        <h3 class="mdc-typography--subtitle2">
+                                            <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
+                                            | by {{ article.authors }}
+                                        </h3>
+                                    </div>
+                                    <div class="mdc-typography--body2">{{ article.description }}</div>
+                                    <div class="mdc-card__actions">
+                                        <div class="mdc-card__action-buttons">
+                                            <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='{{ article.url | relative_url }}';">Read</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="splitter"></div>
+                </div>
+            </main>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

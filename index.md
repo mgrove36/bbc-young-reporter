@@ -27,7 +27,7 @@ layout: home
 {% if currentdate_count < 3 %}
 {% assign currentdate_count = currentdate_count | plus: 1 %}
 <div class="mdc-card">
-    <div class="mdc-card__media mdc-card__media--16-9 {{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }}"></div>
+    <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url('/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');"></div>
     <div class="mdc-card-content">
         <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
         <h3 class="mdc-typography--subtitle2">
@@ -42,11 +42,6 @@ layout: home
         </div>
     </div>
 </div>
-<style>
-    .{{ article.url | relative_url | replace: '/', '-' | replace: '.', '-' }} {
-        background-image: url("/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg");
-    }
-</style>
 {% endif %}
 {% if currentdate != date %}
 {% endif %}

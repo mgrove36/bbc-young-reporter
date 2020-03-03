@@ -20,6 +20,11 @@
     padding-bottom: 6px;
 }
 
+/* hide empty black bar if there is no content to the article */
+.article-content:empty {
+    display: none;
+}
+
 /* position headline in middle of image */
 .parallax-section {
     text-align: center;
