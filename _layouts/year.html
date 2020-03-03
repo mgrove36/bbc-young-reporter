@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <link href="/css/mdc-card-list.css" rel="stylesheet">
-    <link href="/css/year-article-list.css" rel="stylesheet">
+    <link href="/css/article-list.css" rel="stylesheet">
+    <link href="/css/year.css" rel="stylesheet">
     <body>
         <!-- cookie notice is included automatically -->
         {% include cookie-notice.html %}
@@ -15,16 +15,18 @@
 
             <main class="main-content" id="main-content">
                 <div class="mdc-top-app-bar--short-fixed-adjust">
-                    <div class="article-section parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
-                        <div class="article-section-header">
-                            <h1>{{ currentdate }}</h1>
-                            <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/{{ currentdate }}';">Read More <span class="material-icons">keyboard_arrow_right</span></button>
-                        </div>
+                    {% assign pageyear = page.url | relative_url | remove: '.html' | remove: '/' %}
+                    <div class="year-header parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ pageyear }}.jpg');">
+                        <h1 class="mdc-typography--headline1">{{ pageyear }}</h1>
+                    </div>
+                    <div class="splitter"></div>
+                    <div class="article-section">
                         <div class="articles">
                             {% assign articles = site.categories.articles | sort: date | reverse %}
                             {% for article in articles %}
-                            {% if article.date | date: "%Y" == page.year %}
-                                <div class="mdc-card">
+                            {% assign articleyear = article.date | date: "%Y" %}
+                            {% if pageyear == articleyear %}
+                                <div class="mdc-card" onclick="window.location='{{ article.url | relative_url }}';">
                                     <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url('/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');"></div>
                                     <div class="mdc-card-content">
                                         <h2 class="mdc-typography--headline6">{{ article.title }}</h2>

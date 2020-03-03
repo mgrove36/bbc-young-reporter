@@ -1,23 +1,4 @@
-.main-content .mdc-card {
-	float: left;
-    width: calc((100% / 3) - 12px);
-    box-shadow: none;
-}
-.mdc-card {
-    margin: 6px 6px 10px 6px;
-    background: none;
-}
-.article-section-header {
-    background-color: rgba(24,26,27,0.5);
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-.article-section-header h1 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin: 6px;
-    display: inline;
-}
+/* place button on right */
 .article-section-header button {
     display: inline;
     padding: 5px 14px;
@@ -25,6 +6,8 @@
     float: right;
     top: 3.5px;
 }
+
+/* animate button on hover */
 .article-section-header button span {
     position: relative;
     left: 0;
@@ -33,33 +16,28 @@
     font-size: inherit;
 }
 .article-section-header button:hover span {
-    left: 3px;
+    left: 4px;
 }
-.splitter {
-    height: 15px;
-    width: 100%;
-    background-color: var(--mdc-theme-primary);
-}
+
+/* alternate section backgrounds */
 .article-section:nth-of-type(3n) {
     background: var(--mdc-theme-background);
 }
-.article-section:nth-of-type(3n) #jarallax-container-1 {
+.article-section:nth-of-type(3n) > div:nth-of-type(3), .article-section:nth-of-type(3n+2) > div:nth-of-type(3) {
     display: none;
 }
+.article-section:nth-of-type(3n+2) {
+    background: var(--mdc-theme-primary);
+}
 
+/* hide articles on smaller screen sizes */
 @media screen and (max-width: 600px) {
     .article-section .mdc-card:nth-of-type(3) {
         display: none;
-    }
-    .article-section .mdc-card {
-        width: calc((100% / 2) - 12px);
     }
 }
 @media screen and (max-width: 350px) {
     .article-section .mdc-card:nth-of-type(2) {
         display: none;
-    }
-    .article-section .mdc-card {
-        width: calc((100% / 1) - 12px);
     }
 }

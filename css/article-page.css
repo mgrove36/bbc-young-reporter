@@ -32,20 +32,17 @@
     padding: 150px 15px;
 }
 
-
 /* adjust video dimensions depending on screen size */
 iframe {
     width: 100%;
     height: calc(68.8vw / 16 * 9);
 }
-
 @media screen and (max-width: 1550px) {
     iframe {
       width: 100%;
         height: calc(70vw / 16 * 9 - 6px);
     }
 }
-
 @media screen and (max-width: 800px) {
     iframe {
       height: calc(90vw / 16 * 9 - 5px);
@@ -55,14 +52,12 @@ iframe {
         line-height: 2.625rem;
     }
 }
-
 @media screen and (max-width: 400px) {
     .mdc-typography--headline3, .mdc-typography--headline5 {
         font-size: 2rem;
         line-height: 2.125rem;
     }
 }
-
 @media screen and (max-width: 600px) {
     iframe {
         height: calc(93.5vw / 16 * 9);
