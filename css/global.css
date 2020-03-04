@@ -37,6 +37,17 @@ a {
 :not(.mdc-list--non-interactive)>:not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive)>:not(.mdc-list-item--disabled).mdc-list-item--activated::after {
     background-color: var(--mdc-theme-secondary);
 }
+/* .mdc-list-group__subheader {
+    height: 40px;
+} */
+.mdc-list-item.year::before, .mdc-list-item.year::after {
+    background: none !important;
+}
+.mdc-list-item.year, .mdc-list-item.year {
+    margin: 0;
+    padding: 0;
+    display: initial;
+}
 
 /* change cursor on top app bar */
 .mdc-top-app-bar__title {

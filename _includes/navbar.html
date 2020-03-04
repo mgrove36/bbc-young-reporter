@@ -23,7 +23,11 @@
                     </div>
                     {% endif %}
                     <div class="mdc-list-group">
-                    <h3 class="mdc-list-group__subheader">{{ currentdate }}</h3>
+                    <h3 class="mdc-list-group__subheader">
+                        <a class="mdc-list-item year" href="/{{ currentdate }}" data-mdc-auto-init="MDCRipple">
+                            <span class="mdc-list-item__text">{{ currentdate }}</span>
+                        </a>
+                    </h3>
                     {% assign date = currentdate %}
                     {% endif %}
                     <a class="mdc-list-item" href="{{ article.url | relative_url }}" data-mdc-auto-init="MDCRipple">
