@@ -3,8 +3,6 @@ title: Could Sky-High Aims Bring Reading Down?
 date: 2019-03-06 12:56
 authors: Ben P
 image-caption: One of the buildings in CNM Estates' Verto developments | &copy; Reading School
-layout: image-article
-categories: articles
 description: On February 6th, 2019, Berkeley Developments started to tear down the old Homebase and Toys R Us in Forbury Retail Park, Reading, to turn it into a housing estate. Homebase and Toys R Us are some of the many buildings being knocked down in the area to make way for new high-rise flats, but could reaching for the sky also have a negative effect that brings the people of Reading down?
 ---
 

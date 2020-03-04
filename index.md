@@ -16,7 +16,7 @@ layout: home
 </div>
 <div class="splitter"></div>
 {% endif %}
-<div class="article-section parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
+<div class="article-section parallax-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
     <div class="article-section-header">
         <h1 class="mdc-typography--headline4">{{ currentdate }}</h1>
         <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/{{ currentdate }}';">See All <span class="material-icons">keyboard_arrow_right</span></button>

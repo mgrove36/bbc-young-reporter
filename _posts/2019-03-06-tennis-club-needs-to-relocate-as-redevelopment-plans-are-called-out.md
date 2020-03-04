@@ -3,8 +3,6 @@ title: Tennis Club Needs To Relocate As Redevelopment Plans Are Called ‘Out’
 date: 2019-03-06 12:32
 authors: Hal R-D
 image-caption: A rainy winters day at Caversham lawn tennis club | &copy; Reading School
-layout: image-article
-categories: articles
 description: A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.
 ---
 

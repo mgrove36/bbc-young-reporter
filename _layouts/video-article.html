@@ -14,8 +14,7 @@
 
             <main class="main-content" id="main-content">
                 <div class="mdc-top-app-bar--short-fixed-adjust">
-                    <div class="parallax-section article-title-section" data-jarallax data-speed="0.4"
-                        style="background-image: url('/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');">
+                    <div class="parallax-section article-title-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');">
                         <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
                     </div>
                     <figcaption class="mdc-typography--caption-text">{{ page.image-caption }}</figcaption>

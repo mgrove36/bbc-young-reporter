@@ -3,8 +3,6 @@ title: Book Week - Real Life Issues Inspire Sarah Govett
 date: 2019-03-06 14:14
 authors: Aadith C, Adit S, Adi V
 image-caption: Sarah Govett visited Reading School as part of Book Week | &copy; Reading School
-layout: image-article
-categories: articles
 description: Sarah Govett, author of the critically acclaimed ‘Territory’ series, discussed with us writing, life and everything in between.
 ---
 

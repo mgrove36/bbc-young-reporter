@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
+    {% assign pageyear = page.url | relative_url | remove: '.html' | remove: '/' %}
+    <!-- overwrite default title and description -->
+    <meta name="apple-mobile-web-app-title" content="{{ pageyear }} | BBC Young Reporter | Reading School">
+    <title>{{ pageyear }} | BBC Young Reporter | Reading School</title>
+    <meta name="description" content="News articles written by Reading School students in year 8, in {{ pageyear }}">
     <link href="/css/article-list.css" rel="stylesheet">
     <link href="/css/year.css" rel="stylesheet">
+    {% include head.html %}
     <body>
         <!-- cookie notice is included automatically -->
         {% include cookie-notice.html %}
@@ -15,8 +20,7 @@
 
             <main class="main-content" id="main-content">
                 <div class="mdc-top-app-bar--short-fixed-adjust">
-                    {% assign pageyear = page.url | relative_url | remove: '.html' | remove: '/' %}
-                    <div class="year-header parallax-section" data-jarallax data-speed="0.4" style="background-image: url('/images/backgrounds/{{ pageyear }}.jpg');">
+                    <div class="year-header parallax-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/backgrounds/{{ pageyear }}.jpg');">
                         <h1 class="mdc-typography--headline1">{{ pageyear }}</h1>
                     </div>
                     <div class="splitter"></div>

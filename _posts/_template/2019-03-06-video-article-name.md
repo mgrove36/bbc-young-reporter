@@ -6,7 +6,6 @@ image-caption: A caption for the cover image
 video-caption: A caption for the video
 video-id:
 layout: video-article
-categories: articles
 ---
 
 Content

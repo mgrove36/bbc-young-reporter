@@ -3,8 +3,6 @@ title: What Is 'In The Patient's Best Interest’?
 date: 2019-03-06 11:46
 authors: Aadith C
 image-caption: Disagreements, difficult decisions and assisted dying. What is 'in the patient's best interest'? | &copy; BBC
-layout: image-article
-categories: articles
 description: The Royal College of Physicians (RCP) has announced they are polling their fellows and members on their stance on assisted dying. The poll opened on the 5th of February and it closed on the 1st of March. The RCP is yet to release the results. The debate has been reignited by a public push to look into what the patient’s ‘best interest’ is in many different scenarios.
 ---
 

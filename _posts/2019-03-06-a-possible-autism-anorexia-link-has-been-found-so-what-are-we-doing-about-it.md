@@ -3,8 +3,6 @@ title: A Possible Autism-Anorexia Link Has Been Found, So What Are We Doing Abou
 date: 2019-03-06 13:38
 authors: Luke H
 image-caption: An anorexic girl | &copy; Getty
-layout: image-article
-categories: articles
 description: On the 27 February 2019, a possible link between autism and anorexia was discovered by Autistica, a charity devoted to making autistic people happy and healthy. They stated findings that suggested one in five women with anorexia may also have autism. Their Head of Science, Dr James Cusack, has pushed for the National Institute for Health and Clinical Excellence (NICE) to change their guidance to reflect this.
 ---
 

@@ -3,8 +3,6 @@ title: Are The Roads Around Your Home And School Safe?
 date: 2019-03-06 14:46
 authors: Riley C, Oliver C
 image-caption: An example of a car parking on a double yellow line | &copy; Getty
-layout: image-article
-categories: articles
 description: The Royal Berkshire Hospital earlier this month released a study revealing that there has been a 45% increase in accidents involving children and vulnerable pedestrians walking in Reading between February 2018 to 2019. Now, many students may not feel safe when walking in Reading.
 ---
 

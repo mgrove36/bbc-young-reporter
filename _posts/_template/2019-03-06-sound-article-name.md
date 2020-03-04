@@ -5,7 +5,6 @@ authors: Name
 image-caption: A caption for the cover image
 sound-caption: A caption for the video
 layout: sound-article
-categories: articles
 ---
 
 Content

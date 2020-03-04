@@ -82,7 +82,6 @@ footer {
 .parallax-section {
     position: relative;
     z-index: 0;
-    display: flow-root;
 }
 .parallax-section > div:last-child > div {
     background-color: rgba(50,50,50,0.75);
