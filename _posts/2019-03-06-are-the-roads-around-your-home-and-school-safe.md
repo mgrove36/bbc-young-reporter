@@ -2,7 +2,8 @@
 title: Are The Roads Around Your Home And School Safe?
 date: 2019-03-06 14:46
 authors: Riley C, Oliver C
-image-caption: An example of a car parking on a double yellow line | &copy; Getty
+image-caption: An example of a car parking on a double yellow line
+copyright: Getty
 description: The Royal Berkshire Hospital earlier this month released a study revealing that there has been a 45% increase in accidents involving children and vulnerable pedestrians walking in Reading between February 2018 to 2019. Now, many students may not feel safe when walking in Reading.
 ---
 
@@ -20,14 +21,8 @@ The effects of this behaviour can be seen in the morning when commuting motorist
 
 There are three main types of collisions on roads: pedestrian/cyclist collision, a side impact collision and a head-on collision.  The Road Safety Foundation provided our BBC Young Reporter team with evidence that pedestrians and cyclists are more susceptible to injury even at lower speeds.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">A graph showing the probability of fatality for motor accidents | &copy; Getty</figcaption>
-</figure>
+{% include image.html id=1 caption="A graph showing the probability of fatality for motor accidents" copyright="Getty" %}
 
 Reading School’s Head Master Mr Robson has recently given students advice on how to keep themselves safe when walking home, recommending that they do not take out their mobile devices and instead pay attention to their surroundings.  RoSPA also says that young pedestrians should wear reflective clothing during winter months and practice the Green Cross Code.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-2.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">An example of cars blocking the path for disabled and elderly people | &copy; BBC</figcaption>
-</figure>
+{% include image.html id=2 caption="An example of cars blocking the path for disabled and elderly people" copyright="BBC" %}

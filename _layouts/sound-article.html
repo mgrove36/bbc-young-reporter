@@ -14,16 +14,7 @@
 
             <main class="main-content" id="main-content">
                 <div class="mdc-top-app-bar--short-fixed-adjust">
-                    <div class="parallax-section article-title-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');">
-                        <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
-                    </div>
-                    <figcaption class="mdc-typography--caption-text">{{ page.image-caption }}</figcaption>
-                    
-                    <h3 class="mdc-typography--subtitle1">
-                        <time class="timeago"
-                            datetime="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%H:%M:%S' }}">{{ page.date | date: '%A %e %B %Y' }}</time>
-                        | by {{ page.authors }}
-                    </h3>
+                    {% include article-heading.html %}
                     <div class="article-content">
                         <audio controls>
                             <source src="{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.ogg" type="audio/ogg">

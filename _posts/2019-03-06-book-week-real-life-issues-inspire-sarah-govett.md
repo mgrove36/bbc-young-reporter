@@ -2,7 +2,8 @@
 title: Book Week - Real Life Issues Inspire Sarah Govett
 date: 2019-03-06 14:14
 authors: Aadith C, Adit S, Adi V
-image-caption: Sarah Govett visited Reading School as part of Book Week | &copy; Reading School
+image-caption: Sarah Govett visited Reading School as part of Book Week
+copyright: Reading School
 description: Sarah Govett, author of the critically acclaimed ‘Territory’ series, discussed with us writing, life and everything in between.
 ---
 
@@ -18,10 +19,7 @@ Ms Govett also spoke about the real-life issues that the book addresses, stating
 
 Global warming and climate change, as far-fetched as it is in the ‘Territory’ series is a growing issue in real life. Research in 2018 by NASA scientists shows that the sea level will rise by 1-4 feet by 2100 at the current rate. So, the partial submerging portrayed in the ‘Territory’ books could not be as far off as you imagine.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">Sarah Govett's books are set in a world where global warming has wrecked the planet | &copy; Reading School</figcaption>
-</figure>
+{% include image.html id=1 caption="Sarah Govett's books are set in a world where global warming has wrecked the planet" copyright="Reading School" %}
 
 She also said, “I don’t like dystopia where people are evil for the sake of being evil. I like to have the people doing wrong things to have a reason. The ‘Territory’ series shows how global warming can do this.”
 

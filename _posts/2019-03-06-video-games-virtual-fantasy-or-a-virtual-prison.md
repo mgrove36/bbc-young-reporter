@@ -2,7 +2,8 @@
 title: Video Games - Virtual Fantasy Or A Virtual Prison?
 date: 2019-03-06 12:19
 authors: Kamran S
-image-caption: Fortnite - one of the world's biggest video games | &copy; Getty
+image-caption: Fortnite - one of the world's biggest video games
+copyright: Getty
 description: "With Fortnite Season 8 unveiled last week, Tom Clancy’s Rainbow 6 Siege Year 4 beginning yesterday and two of the world’s most anticipated games, Red Dead Redemption 2 and Call of Duty: Black Ops 4, just released, there’s no better time for young people to be educated on how to stay safe while gaming. Xbox player and Rainbow 6 enthusiast Kamran S reports on the issues to do with bullying in video games."
 ---
 
@@ -20,10 +21,7 @@ Firstly, why does bullying occur in video games?   Experienced gamers in the Rea
 
 In competitive game modes, where players are pitted against the best of the best in order to improve their rank to show how good they are (such as Tom Clancy’s Rainbow Six Siege, Call of Duty and FIFA), players can be led astray from the actual enjoyment of the game into being the best at it out of their friend group. Ben says: “one of the main reasons bullying whilst gaming takes place is because someone is better than the bully but the bully wants to be the best at the game, so he goes against the player he is playing with.” They may go about this in many ways in order to get the player angry or upset making them play worse, forcing them to do something in retaliation in order to make them look worse than the person doing it in the first place or making them quit the game and stop playing video games altogether.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">Competitive e-sports competitions are beginning to attract thousands of competitors and millions of viewers | &copy; Getty</figcaption>
-</figure>
+{% include image.html id=1 caption="Competitive e-sports competitions are beginning to attract thousands of competitors and millions of viewers" copyright="Getty" %}
 
 Gamers we spoke to also said that in more casual situations, where the players are looking for an escape from the competitive category just looking for a game situation where no one is judged to be better or worse than anyone else, the reasons to bully may be more minor and possibly even pettier. “Maybe the bully’s favourite character was picked by someone else and now since they can’t play as him/her or maybe there was a situation in the last round where a player may have not used simple game logic and the bully may just be angry at them and wants them to feel bad about that last round,” explained Tom.
 

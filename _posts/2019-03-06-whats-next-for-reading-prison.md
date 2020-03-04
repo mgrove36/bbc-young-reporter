@@ -2,7 +2,8 @@
 title: What's Next For Reading Prison?
 date: 2019-03-06 10:38
 authors: Tom S-R, Ben S-R
-image-caption: A view of one of the prison buildings | &copy; BBC
+image-caption: A view of one of the prison buildings
+copyright: BBC
 description: After being shut 63 months ago, Reading Gaol has remained unused. Reading East MP Matt Rodda says, during this time, "The government has spent over one million pounds on just maintaining the site … whilst homelessness has increased in our borough [Reading East] by 700%." Currently a feasibility study is being undertaken by Theatre and Arts Reading (TAR) and is nearing completion. Mrs Scott, the TAR Executive Secretary said TAR hopes "to have some sort of public announcement in March which will update everyone on what is happening."
 ---
 
@@ -46,7 +47,4 @@ Matt Rodda MP suggests that members of the public who want to support the projec
 
 In addition to the many educational and cultural benefits of this theatre and arts venue vision, many in the local community and beyond feel that it would be a fitting conclusion to the story of Oscar Wilde and Reading Gaol.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">An inside view of the prison | &copy; BBC</figcaption>
-</figure>
+{% include image.html id=1 caption="An inside view of the prison" copyright="BBC" %}

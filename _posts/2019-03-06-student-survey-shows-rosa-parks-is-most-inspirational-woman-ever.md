@@ -2,7 +2,8 @@
 title: Student Survey Shows Rosa Parks Is Most Inspirational Woman Ever
 date: 2019-03-06 14:38
 authors: Tom S-R, Ben S-R
-image-caption: Rosa Parks - who topped the poll | &copy; BBC
+image-caption: Rosa Parks - who topped the poll
+copyright: BBC
 description: Tomorrow is International Women’s Day (7th March 2019) and we went around our school finding out who people in the school environment thought was the most inspirational woman ever. 90 students and staff took part in the survey which crowned Rosa Parks as the winner.
 ---
 
@@ -20,7 +21,4 @@ The response from teachers was extremely diverse; each of the thirteen teachers 
 
 What is clear from our poll is that there are is really diverse range of women who have inspired this generation. With the English Women’s football team winning the ‘SheBelives’ cup against Japan in the USA last night, that there are many more women inspiring others every day.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">The results from our student survey | &copy; Reading School</figcaption>
-</figure>
+{% include image.html id=1 caption="The results from our student survey" copyright="Reading School" %}

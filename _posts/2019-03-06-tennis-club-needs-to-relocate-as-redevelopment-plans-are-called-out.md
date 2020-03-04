@@ -2,7 +2,8 @@
 title: Tennis Club Needs To Relocate As Redevelopment Plans Are Called ‘Out’
 date: 2019-03-06 12:32
 authors: Hal R-D
-image-caption: A rainy winters day at Caversham lawn tennis club | &copy; Reading School
+image-caption: A rainy winters day at Caversham lawn tennis club
+copyright: Reading School
 description: A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.
 ---
 
@@ -23,10 +24,7 @@ Others objected to the planning application by expressing fears of the damaging 
 
 Whilst Vivien Jameson, also a close neighbour to the club, said she felt: “sad, I’d much prefer the area to stay as a tennis club, people need exercise”. She explained that some of her next-door neighbours felt the same although others obviously have different views.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">An excellent view of 4 courts at Caversham Lawn Tennis Club | &copy; Reading School</figcaption>
-</figure>
+{% include image.html id=1 caption="An excellent view of 4 courts at Caversham Lawn Tennis Club" copyright="Reading School" %}
 
 **Now the club was faced with a big question.**
 

@@ -26,22 +26,7 @@ layout: home
 {% endif %}
 {% if currentdate_count < 3 %}
 {% assign currentdate_count = currentdate_count | plus: 1 %}
-<div class="mdc-card" onclick="window.location='{{ article.url | relative_url }}';">
-    <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url('/images/{{ article.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}.jpg');"></div>
-    <div class="mdc-card-content">
-        <h2 class="mdc-typography--headline6">{{ article.title }}</h2>
-        <h3 class="mdc-typography--subtitle2">
-            <time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%A %e %B %Y' }}</time>
-            | by {{ article.authors }}
-        </h3>
-        <div class="mdc-typography--body2 article-description">{{ article.description }}</div>
-    </div>
-    <div class="mdc-card__actions">
-        <div class="mdc-card__action-buttons">
-            <button class="mdc-button mdc-card__action mdc-card__action--button" data-mdc-auto-init="MDCRipple" onclick="window.location='{{ article.url | relative_url }}';">Read</button>
-        </div>
-    </div>
-</div>
+    {% include mdc-card.html article=article %}
 {% endif %}
 {% if currentdate != date %}
 {% endif %}
