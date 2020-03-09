@@ -17,7 +17,7 @@ search: exclude
     {% endfor %}
     {% if is_number and number != "404" %}
     <url>
-        <loc>/{{ number }}</loc>
+        <loc>{{ page.url | absolute_url | remove: ".html" }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -27,7 +27,7 @@ search: exclude
 
     {% for post in site.posts %}
     <url>
-        <loc>{{ post.url }}</loc>
+        <loc>{{ post.url | absolute_url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
