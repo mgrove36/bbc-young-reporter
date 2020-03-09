@@ -14,4 +14,3 @@ defaults:
       type: "posts"
     values:
       layout: "image-article"
-      categories: articles

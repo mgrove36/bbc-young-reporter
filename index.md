@@ -4,9 +4,9 @@ description: News articles written by Reading School students in year 8
 layout: home
 ---
 
-{% if site.categories.articles %}
+{% if site.posts %}
 {% assign currentdate_count = 0 %}
-{% assign articles = site.categories.articles | sort: date | reverse %}
+{% assign articles = site.posts | sort: date | reverse %}
 {% for article in articles %}
 {% assign currentdate = article.date | date: "%Y" %}
 {% if currentdate != date %}

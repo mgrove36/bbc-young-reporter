@@ -26,7 +26,7 @@
                     <div class="splitter"></div>
                     <div class="article-section">
                         <div class="articles">
-                            {% assign articles = site.categories.articles | sort: date | reverse %}
+                            {% assign articles = site.posts | sort: date | reverse %}
                             {% for article in articles %}
                             {% assign articleyear = article.date | date: "%Y" %}
                             {% if pageyear == articleyear %}

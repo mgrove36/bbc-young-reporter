@@ -13,13 +13,13 @@
                 <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
                 <span class="mdc-list-item__text">Home Page</span>
             </a>
-            {% if site.categories.articles %}
+            {% if site.posts %}
             <div class="mdc-list-group">
                 <h3 class="mdc-typography--headline7">Articles</h3>
-                {% for article in site.categories.articles  %}
+                {% for article in site.posts  %}
                     {% assign currentdate = article.date | date: "%Y" %}
                     {% if currentdate != date %}
-                    {% if article.url != site.categories.articles.first.url %}
+                    {% if article.url != site.posts.first.url %}
                     </div>
                     {% endif %}
                     <div class="mdc-list-group">
@@ -34,7 +34,7 @@
                         <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
                         <span class="mdc-list-item__text">{{ article.title }}</span>
                     </a>
-                    {% if article.url == site.categories.articles.last.url %}
+                    {% if article.url == site.posts.last.url %}
                     </div>
                     {% endif %}
                 {% endfor %}
