@@ -6,15 +6,22 @@ search: exclude
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.pages %}
-    {% if page.url != "/assets/css/style.css" %}
-    {% if page.url != "/sitemap.xml" %}
+    {% assign number = page.url | remove: ".html" | remove: "/" %}
+    {% assign characters = number | split: "" %}
+    {% assign is_number = true %}
+    {% for char in characters %}
+    {% if char != "0" and char != "1" and char != "2" and char != "3" and char != "4" and char != "5" and char != "6" and char != "7" and char != "8" and char != "9" %}
+    {% assign is_number = false %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+    {% if is_number and number != "404" %}
     <url>
-        <loc>{{ page.url }}</loc>
+        <loc>/{{ number }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>hourly</changefreq>
+        <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
-    {% endif %}
     {% endif %}
     {% endfor %}
 
@@ -22,7 +29,7 @@ search: exclude
     <url>
         <loc>{{ post.url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>hourly</changefreq>
+        <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     {% endfor %}
