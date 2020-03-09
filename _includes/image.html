@@ -1,4 +1,5 @@
+{% assign article_url = page.url | relative_url %}
 <figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-{{ include.id }}.jpg" style="width:100%;">
+    <img src="/images/{{ article_url | slice: 1, article_url.size | remove: '.html' | replace: '/', '-' }}--extra-{{ include.id }}.jpg" style="width:100%;">
     <figcaption class="mdc-typography--caption-text">{{ include.caption }} &bull; &copy; {{ include.copyright }}</figcaption>
 </figure>
