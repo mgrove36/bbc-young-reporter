@@ -1,3 +1,19 @@
+html {
+    height: 100%;
+}
+html, body, .mdc-drawer-app-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer-container, .mdc-drawer-app-content, body {
+    flex-grow: 1;
+}
+
+
+
+
+
+
 /* change theme */
 :root {
     --mdc-theme-primary: #253a67;
@@ -77,16 +93,6 @@ a {
     position: absolute;
 }
 
-/* footer */
-.footer-container {
-    background: var(--mdc-theme-background);
-    padding: 5px 0;
-}
-footer {
-    margin: 15px;
-    overflow: auto;
-}
-
 /* parallax backgrounds */
 .parallax-section {
     position: relative;
@@ -105,7 +111,7 @@ footer {
 }
 
 /* responsive side margins */
-.article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
+.article-section .articles, .article-section-header, .footer-container, .article-content, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -116,37 +122,42 @@ footer {
     }
 }
 @media screen and (max-width: 800px) {
-    .article-section .articles, .article-section-header, .footer-container, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
+    .article-section .articles, .article-section-header, .article-content, .footer-container, .article-title-section ~ .mdc-typography--caption-text, .article-title-section, .mdc-typography--subtitle1, .mdc-typography--headline3 {
         padding-left: 2%;
         padding-right: 2%;
     }
 }
 
-/* edit footer depending on screen size - edits alignment & changes switches between center- and left- aligned BBC Young Reporter logos */
-footer span {
-  position: relative;
-  top: 19px;
+/* footer */
+.footer-container {
+    background: var(--mdc-theme-background);
+    padding: 5px 15%;
 }
+footer {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* edit footer depending on screen size - edits alignment & changes switches between center- and left- aligned BBC Young Reporter logos */
 footer img {
-  display: block;
-  width: 125px;
-  float: right;
-  content: url("/images/young-reporter-logo.png");
-  vertical-align: middle;
+    width: 125px;
+    content: url("/images/young-reporter-logo.png");
 }
 @media screen and (max-width: 800px) {
     footer {
-      text-align: center;
+        flex-direction: column;
+        justify-content: center;
     }
     footer img {
-        float: none;
-        margin: auto;
         content: url("/images/young-reporter-logo-centered.png");
         width: 200px;
         padding-bottom: 10px;
+        order: 1;
     }
     footer span {
-      top: 0;
+        order: 2;
     }
 }
 
