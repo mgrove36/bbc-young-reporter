@@ -1,5 +1,5 @@
 {% assign article_url = page.url | relative_url %}
-<div class="parallax-section article-title-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/{{ article_url | slice: 1, article_url.size | remove: '.html' | replace: '/', '-' }}.jpg');">
+<div class="parallax-section article-title-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images{{ article_url | remove: '.html' | remove: '/articles' }}.jpg');">
     <h2 class="mdc-typography--headline3">{{ page.title }}</h2>
 </div>
 <figcaption class="mdc-typography--caption-text">{{ page.image-caption }} &bull; &copy; {{ page.copyright }}</figcaption>

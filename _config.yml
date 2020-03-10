@@ -11,6 +11,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "articles"
     values:
       layout: "image-article"
+collections:
+  articles:
+    output: true
