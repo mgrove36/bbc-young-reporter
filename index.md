@@ -19,7 +19,7 @@ layout: home
 <div class="article-section parallax-section" data-jarallax data-speed="{{ site.parallax-speed }}" style="background-image: url('/images/backgrounds/{{ currentdate }}.jpg');">
     <div class="article-section-header">
         <h1 class="mdc-typography--headline4">{{ currentdate }}</h1>
-        <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/{{ currentdate }}';">See All <span class="material-icons">keyboard_arrow_right</span></button>
+        <button class="mdc-button " data-mdc-auto-init="MDCRipple" onclick="window.location='/years/{{ currentdate }}';">See All <span class="material-icons">keyboard_arrow_right</span></button>
     </div>
     <div class="articles">
 {% assign date = currentdate %}

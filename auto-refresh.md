@@ -17,8 +17,8 @@ layout: none
 {% endif %}
 {% endfor %}
 
-<iframe id="articles-1" class="articles" src="/{{ largest }}"></iframe>
-<iframe id="articles-2" class="articles" src="/{{ largest }}"></iframe>
+<iframe id="articles-1" class="articles" src="/years/{{ largest }}"></iframe>
+<iframe id="articles-2" class="articles" src="/years/{{ largest }}"></iframe>
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
