@@ -4,6 +4,8 @@ description: News articles written by Reading School students in year 8
 layout: none
 ---
 
+{% include meta.html %}
+
 {% assign largest = 0 %}
 {% for page in site.pages %}
 {% assign url = page.url | remove: ".html" | remove: "/years/" %}
