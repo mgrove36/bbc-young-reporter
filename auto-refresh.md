@@ -6,7 +6,7 @@ layout: none
 
 {% assign largest = 0 %}
 {% for page in site.pages %}
-{% assign url = page.url | remove: ".html" | remove: "/" %}
+{% assign url = page.url | remove: ".html" | remove: "/years/" %}
 {% capture testValue %}{{ url | json }}{% endcapture %}
 {% if testValue contains '"' %}{% else %}
 {% assign largest_number = largest | times: 1 %}
