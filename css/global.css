@@ -116,6 +116,11 @@ html, body, .mdc-drawer-app-content {
 .parallax-section > div:last-child > div {
     background-color: rgba(50,50,50,0.75);
     background-blend-mode: multiply;
+    /* IE support */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        opacity: 0.8;
+    }
 }
 
 /* splitter for between sections */
