@@ -118,7 +118,9 @@ html, body, .mdc-drawer-app-content {
     background-blend-mode: multiply;
     /* IE support */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .parallax-section > div:last-child > div {
         opacity: 0.8;
     }
 }
