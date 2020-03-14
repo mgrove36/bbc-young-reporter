@@ -7,7 +7,7 @@ copyright: Reading School
 description: Reading School students want to make a difference to the world by getting involved with charities and raising money for them
 ---
 
-## How important is charity in YOUR lives?
+### How important is charity in YOUR lives?
 
 Currently, it is fair to say that many adults think that young students do not take part in enough charity events in the UK. There is a stereotype that children do not know enough information about charities, leading to them completely ignoring something that they need to be involved in. 
 But Reading School students want to change this.
