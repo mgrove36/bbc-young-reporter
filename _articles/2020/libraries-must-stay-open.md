@@ -1,0 +1,42 @@
+---
+title: Libraries Must Stay Open!
+date: 2020-03-19 08:54
+authors: Kaval S
+image-caption: Changes to public libraries services due to expenditure cutbacks in the United Kingdom as of November 2012
+copyright: Statista
+description: Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open
+---
+
+Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open
+
+Libraries not only bring communities together and make them healthier, but also boost the local economy by:
+* Acting as a free educational resource
+* Providing work space for telecommuters
+* Supplying free internet access for people in search of jobs
+* Offering interview training
+* Assisting those who are looking for support with their profession
+* Bringing the homeless out of poverty
+
+Due to a cut of 29.6% in funds from the Governments, over 800 libraries have been closed for good in less than a decade, with hundreds more having to reduce hours and having to spend less on improving and maintaining the library. It is not just academic gains that libraries have. A US study found that public libraries deliver 4 times the amount for the economy from the money invested in it. Another independent research consultancy for the Archives, Museums and Libraries Alliance found that for every £1 pound invested in libraries, £5.50 - £7.50 is returned in value to the users and this figure diminishes the more libraries that are closing down. This is where the UK is not investing its money, let’s see where we are investing. Money has been cut from library services, and invested in the National Citizen Service, which offers team-building and outdoor pursuits to teenagers during school holidays – at an expense of £1.26bn. It has costed £1,800 per participant (straight from taxpayers’ pockets) and we are yet to see the return of this investment economically.
+
+Another 132 mobile libraries had to close down just in 2016 – these are essential to people with mobility issues and do not have easy access to regular libraries – and now some may not get access to a library again. 
+
+Librarians have seen their salary lowered substantially and are being replaced by unpaid and untrained volunteers that are less efficient and have left many people without income (over 3,000 librarians have been left in this situation). Estimates from the PLN suggest that there has been a 5000% increase in volunteers controlling libraries from 2010 to 2017. From 2003 to 2014, full-time employment in libraries dropped by 51%: which is 18,377 people. 
+
+Welsh historical novelist, Ken Follett, commented on the usefulness of libraries: "The most valuable thing a country can have is an educated workforce and this is what libraries are about.” Jacqueline Wilson also described them as being “desperately important”.
+
+It is a well-accepted fact that reading is linked to higher grades and even increases cognitive ability, not just in English but STEM subjects too. Libraries can reduce the strain on education establishments by administering non-formal education, which enhances literacy rates, improves grades which advances the rate of development. The Education and Skills Act means that for everyone under the age of 18 it is compulsory to have a suitable qualification – and libraries are therefore not complementary, but vital. When surveying computer/internet users at libraries, results found that 41% of people use the access because there is no other option where they can use it.
+
+Head school librarian of Reading School, Mrs Kesteven, who has 23 years of experience in libraries said: “Libraries have the power the change lives and should be at the heart of every thriving community”. 
+
+Libraries are also essential to a functioning democratic nation, as they are a public institution that serves everyone equally to all segments of society. Equality if the foundation of democracy and it can only be achieved when everyone has the same access to all available resources. Ian Anstice, a librarian and a keen advocate of public libraries said: “Level the playing field between those who can afford all the books they want, and the rest, who can’t.” Another reason libraries are important politically is that they can provide voter advice and registration. They can also publicise party positions evenly to ensure a fair election and also be used to collect new ideas and thoughts. 
+
+The Government have blamed councils for the closure of libraries yet it is responsible for advising council’s what to spend their budget on and are obliged to intervene if it is being spent inappropriately, as stated by the Public Libraries Act. According to NewStatesman, the county of Northamptonshire, which has been following advice for the DCMS (Department of Digital Culture Media and Sports) and are responsible for libraries; have cut the council’s budget by £500m. Due to this, they have been forced to close down many libraries to compensate. A spokesperson for the DCMS has said: “The government is completely committed to helping libraries prosper and recognise the important place they have in communities across the country”. They also mentioned that they spent £4m on “innovative libraries projects” which does not plug the deficit by the Government of hundreds of millions of pounds. Mrs Knight, Secretary of the School Library Association Central and East Berkshire Branch said: I think that the government must act. A library is a resource that needs qualified staff to run it. It is also a space that needs money. Libraries in general are so much more than buildings with books in. They are the opportunity for young children to grow into readers”. She also works in a school and said: “The reading room at my school is often used by the quieter souls of the school at lunchtime – they need a space from the busyness. Over the last two years a group a friends has formed from those individuals – and they probably wouldn’t have crossed paths otherwise”. Newsround put a vote online to see how many people thought that it was important for libraries to have a special space dedicated to books and reading and found that an overwhelming 95% of people wanted that. It is now estimated that only 1 in 8 schools have a library of a decent size. 
+
+In a poll completed by students of Reading School (which is academically one of the best in the country) nearly 71% said that libraries had enhanced their education. Another 74% added that they would visit libraries more often if there were more resources available and the weren’t as many cuts. 88% said that libraries are important to society, not just at school but globally. When asked whether they thought that libraries were declining or not, one student said: I think the government is not quite providing enough money for libraries and there are not as many donations made. Many others also mentioned funding.
+
+A high literacy rate is crucial for a developed country. The World Literacy Foundation conducted a study to calculate what percentage of the economy is dependent on literacy. It concluded that it was 2% of the economy – with The UK’s GDP this totals to £144m per day (as of 2017). 
+
+Now maybe something you didn’t know. By statute, prisons are required to have libraries and must permit all prisoners to access it with a professional librarian. Schools, on the other hand, do not. Mrs Knight said: Prisons have to have libraries because they need to be seen to educate prisoners and provide reading material – an outlet for stress etc. Schools are very much the same. Throughout my career I have found this stat strange – libraries should be a legal requirement in all prisons and schools.
+
+In the UK, there is only one library per 18,300 people, yet we are still closing them down despite the proven benefits and the fact that other thriving countries are increasing their expenditure on libraries. We are approaching $3 trillion USD, but we cannot muster a few million to keep libraries open. Libraries have been enhancing our nations for over 1400 years, so why should they stop now?
