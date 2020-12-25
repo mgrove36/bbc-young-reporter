@@ -7,8 +7,6 @@ copyright: Getty
 description: The Royal Berkshire Hospital earlier this month released a study revealing that there has been a 45% increase in accidents involving children and vulnerable pedestrians walking in Reading between February 2018 to 2019. Now, many students may not feel safe when walking in Reading.
 ---
 
-**The Royal Berkshire Hospital earlier this month released a study revealing that there has been a 45% increase in accidents involving children and vulnerable pedestrians walking in Reading between February 2018 to 2019. Now, many students may not feel safe when walking in Reading.**
-
 Reading School’s BBC Young Reporters conducted their own poll of fifty students which reinforced this point and revealed that 76% worry how secure when commuting on foot to and from school.
 
 During the most busy periods immediately before and after school starts and finishes, Reading School boys face danger from motorists who violate the Highway Code.  Simon Beasley, the Network and Parking Manager for Reading Borough Council, told us that six hundred and thirty three tickets were given out in January 2019 for offences such as parking on double yellow lines.  Our eyewitnesses have told us that it is this kind of careless driving which can often pose the biggest threat.
@@ -21,8 +19,8 @@ The effects of this behaviour can be seen in the morning when commuting motorist
 
 There are three main types of collisions on roads: pedestrian/cyclist collision, a side impact collision and a head-on collision.  The Road Safety Foundation provided our BBC Young Reporter team with evidence that pedestrians and cyclists are more susceptible to injury even at lower speeds.
 
-{% include image.html id=1 caption="A graph showing the probability of fatality for motor accidents" copyright="Getty" %}
+{% include image.html caption="A graph showing the probability of fatality for motor accidents" copyright="Getty" %}
 
 Reading School’s Head Master Mr Robson has recently given students advice on how to keep themselves safe when walking home, recommending that they do not take out their mobile devices and instead pay attention to their surroundings.  RoSPA also says that young pedestrians should wear reflective clothing during winter months and practice the Green Cross Code.
 
-{% include image.html id=2 caption="An example of cars blocking the path for disabled and elderly people" copyright="BBC" %}
+{% include image.html caption="An example of cars blocking the path for disabled and elderly people" copyright="BBC" %}

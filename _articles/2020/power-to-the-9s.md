@@ -7,7 +7,7 @@ copyright: Reading School
 description: The Power to the 9s is a new project being launched by Reading School this year and being led by Mr. Tom Evans, an Assistant Head of Reading School
 ---
 
-{% include image.html id=1 caption="The logo for Power to the 9s" copyright="Reading School" %}
+{% include image.html caption="The logo for Power to the 9s" copyright="Reading School" %}
 
 # What is the Power to the 9s project?
 
@@ -28,9 +28,9 @@ Toby, who went to Tasmania in 2019, reckons that: “Being away from home shaped
 D
 ylan went on the trip to Sweden last year, and believes he benefited from the experience: “I think it will help build relationships between students."
 
-{% include image.html id=2 caption="An activity on the Sweden trip last year" copyright="Reading School" %}
+{% include image.html caption="An activity on the Sweden trip last year" copyright="Reading School" %}
 
-{% include image.html id=3 caption="The wonderful sights of nighttime Sweden" copyright="Reading School" %}
+{% include image.html caption="The wonderful sights of nighttime Sweden" copyright="Reading School" %}
 
 Mrs. Mole, as well as being the Headmaster’s Executive Assistant, went on the Sweden trip last year, and she had a great time. She said, “I hope that Power to the 9s will develop students as well-rounded young people and make the students think about others as well, in a good-natured way, instead of just themselves.”
 

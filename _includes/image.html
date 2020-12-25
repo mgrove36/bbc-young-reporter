@@ -1,5 +1,8 @@
-{% assign article_url = page.url | relative_url %}
-<figure>
-    <img src="/images{{ article_url | remove: '.html' | remove: '/articles' }}--extra-{{ include.id }}.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">{{ include.caption }} &bull; &copy; {{ include.copyright }}</figcaption>
-</figure>
+{% assign image-counter = image-counter | plus: 1 %}
+<div class="article-image">
+	<div class="copyright-image-container">
+		<img class="image fit" src="/images/{{ page.url | relative_url | remove: '.html' | remove: '/articles/' }}--extra-{{ image-counter }}.jpg" alt="">
+		<p class="image-copyright">&copy; {{ include.copyright }}</p>
+	</div>
+	<p class="image-caption">{{ include.caption }}</p>
+</div>

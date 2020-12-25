@@ -1,285 +1,171 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
+
+
+
+<head>
     <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<meta name="HandheldFriendly" content="True">
-<link rel="icon" href="/images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="icon" href="/images/logo-white-square.png">
 
-<!-- add to homescreen for Chrome on Android -->
-<meta name="mobile-web-app-capable" content="yes">
-<link rel="icon" sizes="192x192" href="/images/favicon.png">
+    <!-- add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
 
-<!-- add to homescreen for Safari on iOS -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Libraries Must Stay Open! | Reading School">
-<link rel="apple-touch-icon-precomposed" href="/images/favicon.png">
+    <!-- add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Libraries Must Stay Open!">
+    <link rel="apple-touch-icon-precomposed" href="/images/logo-white-square.png">
 
-<!-- tile icon & colour for Windows 8 -->
-<meta name="msapplication-TileImage" content="/images/favicon.png">
-<meta name="msapplication-TileColor" content="#d84315">
+    <!-- tile icon & colour for Windows 8 -->
+    <meta name="msapplication-TileImage" content="/images/logo-white-square.png">
+    <meta name="msapplication-TileColor" content="#1d2f53">
 
-<title>Libraries Must Stay Open! | Reading School</title>
-<meta name="description" content="Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open">
+    <!-- page info -->
+    <title>Libraries Must Stay Open! | Reading School</title>
+    <meta name="description" content="Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open">
+    <meta name="keywords" content="" />
 
-    <!-- import Roboto (font) -->
-    <link href="/css/roboto.css" rel="stylesheet">
-
-    <!-- import jQuery -->
-    <script src="/js/jquery.min.js"></script>
-
-    <!-- import jQuery timeago -->
-    <script src="/js/jquery.timeago.min.js"></script>
-
-    <!-- import cookie JavaScript -->
-    <script src="/js/cookies.js"></script>
-
-    <!-- import Material Design components & icons -->
-    <link href="/css/material-components-web.min.css" rel="stylesheet">
-    <link href="/css/material_icons.css" rel="stylesheet">
-    <script src="/js/material-components-web.min.js"></script>
-
-    <!-- import Jarallax for parallax backgrounds -->
-    <script src="/js/jarallax.min.js"></script>
-
-    <!-- import local styling & scripts -->
-    <script src="/js/global.js"></script>
-    <link href="/css/global.css" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68BN6F20LG"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124505000-1" type="text/javascript"></script>
+    <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
-        gtag('config', 'G-68BN6F20LG');
+        gtag('config', 'UA-124505000-2');
     </script>
+    
+    <!-- jQuery -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/timeago.js"></script>
 </head>
 
-    <link href="/css/article-page.css" rel="stylesheet">
-<script src="/js/article-page.js"></script>
-<script src="/js/top-scroll-button.js"></script>
-
-    <body>
-        <!-- cookie notice is included automatically -->
-        <div id="cookies">
-    <p>Just to let you know, we use cookies on our site.</p>
-    <p><a href="javascript:void(0);" id="close-cookies">OK</a></p>
-</div>
-
-
-        <!-- content of navbar is included via jQuery -->
-        <aside class="mdc-drawer mdc-drawer--modal">
-    <div class="mdc-drawer__content">
-        <nav class="mdc-list">
-            <div style="margin: 15px;text-align:center;">
-                <img src="/images/logo-white.png" style="width: 90%;"/>
-                <img src="/images/young-reporter-logo.png" style="width: 90%;padding-top:15px;"/>
-            </div>
-            <a class="mdc-list-item" href="https://reading-school.co.uk" data-mdc-auto-init="MDCRipple">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">school</i>
-                <span class="mdc-list-item__text">Reading School Website</span>
-            </a>
-            <a class="mdc-list-item" href="/" data-mdc-auto-init="MDCRipple">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
-                <span class="mdc-list-item__text">Home Page</span>
-            </a>
-            
-            <div class="mdc-list-group">
-                <h3 class="mdc-typography--headline7">Articles</h3>
-                
-                    
-                    
-                    
-                    <div class="mdc-list-group">
-                    <h3 class="mdc-list-group__subheader">
-                        <a class="mdc-list-item year" href="/years/2020" data-mdc-auto-init="MDCRipple">
-                            <span class="mdc-list-item__text">2020</span>
-                        </a>
-                    </h3>
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2020/its-just-not-cricket-anymore.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">It's just not Cricket... Anymore</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2020/libraries-must-stay-open.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Libraries Must Stay Open!</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2020/charity-children-want-to-create-change.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Charity: Children Want to Create Change</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2020/power-to-the-9s.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Power to the 9s – Will it live up to its expectations?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2020/reading-gaol-and-its-march-for-the-past.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Reading Gaol and its March for the Past</span>
-                    </a>
-                    
-                
-                    
-                    
-                    
-                    </div>
-                    
-                    <div class="mdc-list-group">
-                    <h3 class="mdc-list-group__subheader">
-                        <a class="mdc-list-item year" href="/years/2019" data-mdc-auto-init="MDCRipple">
-                            <span class="mdc-list-item__text">2019</span>
-                        </a>
-                    </h3>
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/finished-product.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">The Finished Product</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/are-the-roads-around-your-home-and-school-safe.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Are The Roads Around Your Home And School Safe?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/student-survey-shows-rosa-parks-is-most-inspirational-woman-ever.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Student Survey Shows Rosa Parks Is Most Inspirational Woman Ever</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/book-week-real-life-issues-inspire-sarah-govett.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Book Week - Real Life Issues Inspire Sarah Govett</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/a-possible-autism-anorexia-link-has-been-found-so-what-are-we-doing-about-it.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">A Possible Autism-Anorexia Link Has Been Found, So What Are We Doing About It?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/could-sky-high-aims-bring-reading-down.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Could Sky-High Aims Bring Reading Down?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/tennis-club-needs-to-relocate-as-redevelopment-plans-are-called-out.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Tennis Club Needs To Relocate As Redevelopment Plans Are Called ‘Out’</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/video-games-virtual-fantasy-or-a-virtual-prison.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Video Games - Virtual Fantasy Or A Virtual Prison?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/what-is-in-the-patients-best-interest.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">What Is 'In The Patient's Best Interest’?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/whats-next-for-reading-prison.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">What's Next For Reading Prison?</span>
-                    </a>
-                    
-                
-                    
-                    
-                    <a class="mdc-list-item" href="/articles/2019/young-reporter-team-ready-to-go.html" data-mdc-auto-init="MDCRipple">
-                        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assignment</i>
-                        <span class="mdc-list-item__text">Reading School's BBC Young Reporter Team… Ready To Go!</span>
-                    </a>
-                    
-                    </div>
-                    
-                
-            </div>
-            
-        </nav>
-    </div>
-</aside>
-
-<div class="mdc-drawer-scrim"></div>
-
-
-        <div class="mdc-drawer-app-content">
-            <header class="mdc-top-app-bar mdc-top-app-bar--short" id="app-bar">
-    <div class="mdc-top-app-bar__row">
-        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <a href="javascript:void(0);" class="material-icons mdc-top-app-bar__navigation-icon">menu</a>
-            <span class="mdc-top-app-bar__title" onclick="window.location='/';">BBC Young Reporter | Reading School</span>
-        </section>
-        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-            <a href="/" class="mdc-top-app-bar__action-item" aria-label="Reading School" style="padding:0;">
-                <img src="/images/logo-white.png" alt="Reading School Logo" style="height:100%;"/>
-            </a>
-        </section>
-    </div>
+<body class="is-preload">
+	
+	<!-- Header -->
+<header id="header">
+	<img src="/images/logo-white-padded.png" class="logo" />
+	<a class="logo" href="/">BBC Young Reporter | Reading School</a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
 
+<!-- Nav -->
+<nav id="menu">
+	<ul class="links">
+		<li><a href="https://reading-school.co.uk" class="main-navbar-link">Reading School Website</a></li>
+		<li><a href="/"  class="main-navbar-link" >Home</a></li>
 
-            <main class="main-content" id="main-content">
-                <div class="mdc-top-app-bar--short-fixed-adjust">
-                    
-<div class="parallax-section article-title-section" data-jarallax data-speed="0.5" style="background-image: url('/images/2020/libraries-must-stay-open.jpg');">
-    <h2 class="mdc-typography--headline3">Libraries Must Stay Open!</h2>
+	
+	
+	
+	
+	<li><a href="/years/2020"  class="year-navbar-link" >2020</a></li>
+	
+	
+	<li><a href="/articles/2020/its-just-not-cricket-anymore.html"  class="article-navbar-link" >It's just not Cricket... Anymore</a></li>
+	
+	
+	
+	<li><a href="/articles/2020/libraries-must-stay-open.html"  class="current-page-link article-navbar-link" >Libraries Must Stay Open!</a></li>
+	
+	
+	
+	<li><a href="/articles/2020/charity-children-want-to-create-change.html"  class="article-navbar-link" >Charity: Children Want to Create Change</a></li>
+	
+	
+	
+	<li><a href="/articles/2020/power-to-the-9s.html"  class="article-navbar-link" >Power to the 9s – Will it live up to its expectations?</a></li>
+	
+	
+	
+	<li><a href="/articles/2020/reading-gaol-and-its-march-for-the-past.html"  class="article-navbar-link" >Reading Gaol and its March for the Past</a></li>
+	
+	
+	
+	
+	<li><a href="/years/2019"  class="year-navbar-link" >2019</a></li>
+	
+	
+	<li><a href="/articles/2019/finished-product.html"  class="article-navbar-link" >The Finished Product</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/are-the-roads-around-your-home-and-school-safe.html"  class="article-navbar-link" >Are The Roads Around Your Home And School Safe?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/student-survey-shows-rosa-parks-is-most-inspirational-woman-ever.html"  class="article-navbar-link" >Student Survey Shows Rosa Parks Is Most Inspirational Woman Ever</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/book-week-real-life-issues-inspire-sarah-govett.html"  class="article-navbar-link" >Book Week - Real Life Issues Inspire Sarah Govett</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/a-possible-autism-anorexia-link-has-been-found-so-what-are-we-doing-about-it.html"  class="article-navbar-link" >A Possible Autism-Anorexia Link Has Been Found, So What Are We Doing About It?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/could-sky-high-aims-bring-reading-down.html"  class="article-navbar-link" >Could Sky-High Aims Bring Reading Down?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/tennis-club-needs-to-relocate-as-redevelopment-plans-are-called-out.html"  class="article-navbar-link" >Tennis Club Needs To Relocate As Redevelopment Plans Are Called ‘Out’</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/video-games-virtual-fantasy-or-a-virtual-prison.html"  class="article-navbar-link" >Video Games - Virtual Fantasy Or A Virtual Prison?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/what-is-in-the-patients-best-interest.html"  class="article-navbar-link" >What Is 'In The Patient's Best Interest’?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/whats-next-for-reading-prison.html"  class="article-navbar-link" >What's Next For Reading Prison?</a></li>
+	
+	
+	
+	<li><a href="/articles/2019/young-reporter-team-ready-to-go.html"  class="article-navbar-link" >Reading School's BBC Young Reporter Team… Ready To Go!</a></li>
+	
+	</ul>
+</nav>
+
+	<div id="cookies">
+    <p>Just to let you know, we use cookies on our site.</p>
+    <p>
+        <button class="button small" onclick="acceptCookies();">OK</button>
+    </p>
 </div>
-<figcaption class="mdc-typography--caption-text">Changes to public libraries services due to expenditure cutbacks in the United Kingdom as of November 2012 &bull; &copy; Statista</figcaption>
 
-<h3 class="mdc-typography--subtitle1">
-    <time class="timeago" datetime="2020-03-19T08:54:00">Thursday 19 March 2020</time>
-     &bull; by Kaval S
-</h3>
-                    <div class="article-content">
-                        <p>Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open</p>
+	
+
+	<!-- Heading -->
+	<div id="heading">
+		<h1>Libraries Must Stay Open!</h1>
+		<p class="inner">Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open</p>
+	</div>
+
+	<section class="heading-image-caption">
+		<div class="inner">
+			<p class="image-caption">Changes to public libraries services due to expenditure cutbacks in the United Kingdom as of November 2012 &bull; &copy; Statista</p>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="inner">
+			<div class="content">
+				<b><p><time class="timeago" datetime="2020-03-19T08:54:00">19/03/2020</time> &bull; by Kaval S</p></b>
+				<p class="article-description-mobile"><b>Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open</b></p>
+				<p><p>Libraries. They are “Universities of the streets” and the basis for prosperity. They are a luxury available to all that seek it, regardless of their race, gender, employment status or age. They are one of the most neglected fundamentals of society, which must stay open</p>
 
 <p>Libraries not only bring communities together and make them healthier, but also boost the local economy by:</p>
 <ul>
@@ -314,23 +200,47 @@
 <p>Now maybe something you didn’t know. By statute, prisons are required to have libraries and must permit all prisoners to access it with a professional librarian. Schools, on the other hand, do not. Mrs Knight said: Prisons have to have libraries because they need to be seen to educate prisoners and provide reading material – an outlet for stress etc. Schools are very much the same. Throughout my career I have found this stat strange – libraries should be a legal requirement in all prisons and schools.</p>
 
 <p>In the UK, there is only one library per 18,300 people, yet we are still closing them down despite the proven benefits and the fact that other thriving countries are increasing their expenditure on libraries. We are approaching $3 trillion USD, but we cannot muster a few million to keep libraries open. Libraries have been enhancing our nations for over 1400 years, so why should they stop now?</p>
+</p>
+			</div>
+		</div>
+	</section>
 
-                    </div>
-                    <div class="splitter"></div>
-                </div>
-            </main>
-            <div class="footer-container">
-  <footer>
-    <span >&copy; Matthew G 2020 &bull; Made by <a href="https://mgrove.uk">Matthew G</a></span>
-    <img>
-  </footer>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="content">
+    <section>
+        <h4>Reading School</h4>
+        <ul class="plain">
+            <li><a href="https://twitter.com/readingsch" target="_blank"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+            <li><a href="https://instagram.com/reading_sch" target="_blank"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+            <li><a href="https://facebook.com/ReadingSchoolOfficial" target="_blank"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>English Department</h4>
+        <ul class="plain">
+            <li><a href="https://twitter.com/RSEnglishDept" target="_blank"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+        </ul>
+    </section>
 </div>
-            <a href="javascript:scrollUp()" class="top-scroll-button">
-    <div class="top-scroll-button-image-container">
-        <img alt="Scroll to top" src="/images/up-arrow.png">
-    </div>
-</a>
+<div class="copyright">
+    <a href="https://mgrove.uk">&copy; Matthew G 2020.</a>
+</div>
+		</div>
+	</footer>
+	
+	<!-- Scripts -->
+<script src="/assets/js/cookies.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
 
-        </div>
-    </body>
+</body>
+
+<style>
+#heading {
+	background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("/images/2020/libraries-must-stay-open.jpg");
+}
+</style>
+
 </html>

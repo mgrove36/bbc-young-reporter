@@ -4,23 +4,13 @@ description: News articles written by Reading School students in year 8
 layout: none
 ---
 
-{% include meta.html %}
+{% include head.html %}
 
-{% assign largest = 0 %}
-{% for page in site.pages %}
-{% assign url = page.url | remove: ".html" | remove: "/years/" %}
-{% capture testValue %}{{ url | json }}{% endcapture %}
-{% if testValue contains '"' %}{% else %}
-{% assign largest_number = largest | times: 1 %}
-{% assign url_number = url | times: 1 %}
-{% if url_number > largest_number %}
-{% assign largest = url %}
-{% endif %}
-{% endif %}
-{% endfor %}
+{% assign most_recent_article = site.articles | sort: date | reversed | last %}
+{% assign most_recent_year = most_recent_article.date | date: "%Y" %}
 
-<iframe id="articles-1" class="articles" src="/years/{{ largest }}"></iframe>
-<iframe id="articles-2" class="articles" src="/years/{{ largest }}"></iframe>
+<iframe id="articles-1" class="articles" src="/years/{{ most_recent_year }}"></iframe>
+<iframe id="articles-2" class="articles" src="/years/{{ most_recent_year }}"></iframe>
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/BBCYoungReport?ref_src=twsrc%5Etfw">Tweets by BBCYoungReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>

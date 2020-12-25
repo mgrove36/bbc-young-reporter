@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+{% include head.html %}
+
+<body class="is-preload">
+	
+	{% include header.html %}
+
+	{% include cookie-notice.html %}
+
+	{% assign image-counter = 0 %}
+
+	<!-- Heading -->
+	<div id="heading">
+		<h1>{{ page_title }}</h1>
+		<p class="inner">{{ page_description }}</p>
+	</div>
+
+	<section class="heading-image-caption">
+		<div class="inner">
+			<p class="image-caption">{{ page.image-caption }} &bull; &copy; {{ page.copyright }}</p>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="inner">
+			<div class="content">
+				<b><p><time class="timeago" datetime="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%H:%M:%S' }}">{{ page.date | date: '%d/%m/%Y' }}</time> &bull; by {{ page.authors }}</p></b>
+				<p class="article-description-mobile"><b>{{ page.description }}</b></p>
+				<p>{{ content }}</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			{% include footer.html %}
+		</div>
+	</footer>
+	
+	{% include scripts.html %}
+
+</body>
+
+<style>
+#heading {
+	background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("/images{{ page.url | remove: '.html' | remove: '/articles' }}.jpg");
+}
+</style>
+
+</html>

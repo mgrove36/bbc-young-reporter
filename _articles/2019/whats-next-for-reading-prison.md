@@ -47,4 +47,4 @@ Matt Rodda MP suggests that members of the public who want to support the projec
 
 In addition to the many educational and cultural benefits of this theatre and arts venue vision, many in the local community and beyond feel that it would be a fitting conclusion to the story of Oscar Wilde and Reading Gaol.
 
-{% include image.html id=1 caption="An inside view of the prison" copyright="BBC" %}
+{% include image.html caption="An inside view of the prison" copyright="BBC" %}

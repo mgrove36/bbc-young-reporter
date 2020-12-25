@@ -21,4 +21,4 @@ The response from teachers was extremely diverse; each of the thirteen teachers 
 
 What is clear from our poll is that there are is really diverse range of women who have inspired this generation. With the English Women’s football team winning the ‘SheBelives’ cup against Japan in the USA last night, that there are many more women inspiring others every day.
 
-{% include image.html id=1 caption="The results from our student survey" copyright="Reading School" %}
+{% include image.html caption="The results from our student survey" copyright="Reading School" %}

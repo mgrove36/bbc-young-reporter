@@ -1,24 +1,80 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    {% include head.html %}
-    <link href="/css/article-list.css" rel="stylesheet">
-    <link href="/css/home.css" rel="stylesheet">
-    <body>
-        <!-- cookie notice is included automatically -->
-        {% include cookie-notice.html %}
 
-        <!-- content of navbar is included via jQuery -->
-        {% include navbar.html %}
+{% include head.html %}
+	
+<body class="is-preload">
 
-        <div class="mdc-drawer-app-content">
-            {% include top-app-bar.html %}
+	{% include header.html %}
 
-            <main class="main-content" id="main-content">
-                <div class="mdc-top-app-bar--short-fixed-adjust">
-                    {{ content }}
-                </div>
-            </main>
-            {% include footer.html %}
-        </div>
-    </body>
+	{% include cookie-notice.html %}
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<img src="/images/logo-white.png" class="banner-logo" />
+			<h1>{{ page_title }}</h1>
+			<p>{{ page_description }}</p>
+		</div>
+	</section>
+
+	{% if page.url contains "/years" %}
+
+	<section class="wrapper">
+		<div class="inner">
+			<div class="highlights">
+			{% if site.articles %}
+			{% assign articles = site.articles | sort: date | reverse %}
+			{% for article in articles %}
+			{% assign articleyear = article.date | date: "%Y" %}
+			{% if page_title == articleyear %}
+			<section>
+				<div class="content">
+					<header>
+						{% assign article_url = article.url | relative_url %}
+						<a href="{{ article_url }}" class="image fit"><img
+								src="/images{{ article_url | remove: '.html' | remove: '/articles' }}.jpg"></a>
+						<h3>{{ article.title }}</h3>
+					</header>
+					<p><time class="timeago" datetime="{{ article.date | date: '%Y-%m-%d' }}T{{ article.date | date: '%H:%M:%S' }}">{{ article.date | date: '%d/%m/%Y' }}</time> &bull; by {{ article.authors }}</p>
+					<p style="text-align: left;">{{ article.description }}</p>
+					<a href="{{ article_url }}" class="button small">Read more</a>
+				</div>
+			</section>
+			{% endif %}
+			{% endfor %}
+			{% endif %}
+		</div>
+	</section>
+
+	{% else %}
+
+	{{ content }}
+
+	{% endif %}
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			{% include footer.html %}
+		</div>
+	</footer>
+	
+	{% include scripts.html %}
+
+</body>
+
+{% if page.url contains "/years/" %}
+{% assign banner-image = page.url | remove: '.html' | remove: '/years' | remove: '/' %}
+{% else %}
+{% assign most_recent_article = site.articles | sort: date | reversed | last %}
+{% assign banner-image = most_recent_article.date | date: "%Y" %}
+{% endif %}
+
+<style>
+#banner {
+	background-image: url("/images/backgrounds/{{ banner-image }}.jpg");
+}
+</style>
+
 </html>

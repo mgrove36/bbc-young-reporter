@@ -7,8 +7,6 @@ copyright: Reading School
 description: A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.
 ---
 
-*A ninety-nine year old sports institution is looking for a new home; club member and BBC Young Reporter Hal investigates.*
-
 **Caversham Lawn Tennis Club, which celebrates its centenary in 2020, has voted to move venues following the rejection of their planning application for floodlights.**
 
 After nighty nine years at the same site in Caversham the members of the local tennis club have taken the opportunity to move after an important planning application was declined.
@@ -24,7 +22,7 @@ Others objected to the planning application by expressing fears of the damaging 
 
 Whilst Vivien Jameson, also a close neighbour to the club, said she felt: “sad, I’d much prefer the area to stay as a tennis club, people need exercise”. She explained that some of her next-door neighbours felt the same although others obviously have different views.
 
-{% include image.html id=1 caption="An excellent view of 4 courts at Caversham Lawn Tennis Club" copyright="Reading School" %}
+{% include image.html caption="An excellent view of 4 courts at Caversham Lawn Tennis Club" copyright="Reading School" %}
 
 **Now the club was faced with a big question.**
 

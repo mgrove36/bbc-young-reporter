@@ -1,19 +1,18 @@
 name: BBC Young Reporter | Reading School
 title: BBC Young Reporter | Reading School
-parallax-speed: 0.5
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "year"
+      layout: "home"
   
   -
     scope:
       path: ""
       type: "articles"
     values:
-      layout: "image-article"
+      layout: "article"
 collections:
   articles:
     output: true

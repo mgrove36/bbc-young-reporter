@@ -2,11 +2,9 @@
 title: It's just not Cricket... Anymore
 date: 2020-03-29 10:25
 authors: Milan G
-image-caption: It’s just not cricket... anymore
+image-caption: A modern cricket bat and ball
 copyright: Reading School
-video-caption: It’s just not cricket... anymore
-video-id: rGbNvnmoC3w
-layout: video-article
 description: 
 ---
 
+{% include video.html id="rGbNvnmoC3w" %}

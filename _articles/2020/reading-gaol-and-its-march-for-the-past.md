@@ -11,7 +11,7 @@ On the 21st of March, a crowd will gather outside the Hexagon in Reading at arou
 
 Reading East MP Matt Rodda has started a petition to save Reading Gaol which, at the start of January, had already attracted over 8,000 signatures. He stated ‘We don’t want the historical Gaol to become luxury flats, we want it to be a world-class arts and heritage site, open to all and an asset to the whole community. The Ministry of Justice could make their decision at any time so we need to act quickly to make our voices’ heard again’. He also believes that ‘Reading Gaol should become a space that we can all enjoy’ and that ‘we have an enormous strength of support for saving this historic site’.
 
-{% include image.html id=1 caption="The jail, while modern, has a rich history" copyright="Matthew Grove" %}
+{% include image.html caption="The jail, while modern, has a rich history" copyright="Matthew Grove" %}
 
 Reading Town Centre is a hotspot for local tourist sites. There is the museum where you can explore the town’s rich history and marvel at the UK’s only full-size, woven copy of the famous Bayeux Tapestry. You could also visit Forbury Garden which is home to the Maiwand Lion, a monument that is one of the largest iron-cast statues in the world. Reading Abbey, an extensive medieval complex, which is currently being restored. It also one of the only places that Parliament was held, outside of Westminster (in 1453). And of course, Reading Gaol: a building constructed in Queen Victoria’s reign to be on the cutting edge of the penal system and housed inmates from poets to boxers.
 

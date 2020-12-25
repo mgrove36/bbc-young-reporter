@@ -7,14 +7,9 @@ copyright: BBC
 description: The Royal College of Physicians (RCP) has announced they are polling their fellows and members on their stance on assisted dying. The poll opened on the 5th of February and it closed on the 1st of March. The RCP is yet to release the results. The debate has been reignited by a public push to look into what the patient’s ‘best interest’ is in many different scenarios.
 ---
 
-**The Royal College of Physicians (RCP) has announced they are polling their fellows and members on their stance on assisted dying. The poll opened on the 5th of February and it closed on the 1st of March. The RCP is yet to release the results. The debate has been reignited by a public push to look into what the patient’s ‘best interest’ is in many different scenarios.**
-
 The UK law currently allows medical decisions that are classified as in ‘the best interest’ of the patient. But what is it and how is it used in the NHS?
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-1.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">Mahesh Nanjudappa, senior neonatologist at King's College Hospital, London | &copy; Reading School</figcaption>
-</figure>
+{% include image.html caption="Mahesh Nanjudappa, senior neonatologist at King's College Hospital, London" copyright="Reading School" %}
 
 Mahesh Nanjundappa, a senior neonatologist in the NHS, shared his views with us.
 
@@ -24,10 +19,7 @@ He also mentioned his experience of withdrawal and limitation of treatment, sayi
 
 In 2017, Connie Yates and Chris Gard were involved in a best interests case that concerned their son: Charlie Matthew William Gard who was born with a rare genetic disorder which has no proven treatment. The parents initially wanted to try experimental treatment in the United States. After Charlie’s condition deteriorated, however, the NHS determined that further treatment was futile.
 
-<figure>
-    <img src="/images/{{ page.url | relative_url | remove: '.html' | replace: '/', '-' | remove: '-articles-' }}--extra-2.jpg" style="width:100%;">
-    <figcaption class="mdc-typography--caption-text">There were many protests in favour of Ms Yates and Mr Gard | &copy; Getty</figcaption>
-</figure>
+{% include image.html caption="There were many protests in favour of Ms Yates and Mr Gard" copyright="Getty" %}
 
 Ms Yates and Mr Gard disagreed, and their court battles were subject to widespread attention. However, the parents eventually agreed to the withdrawal of life support, and Charlie passed in late July 2017.
 It is standard protocol in the NHS that doctors must consult with the patient and their close ones regarding treatment. It is patient’s right to refuse treatment. The NHS can also refuse certain treatments, but this can be taken to legal proceedings like in the Charlie Gard case.
