@@ -2,6 +2,7 @@
 title: BBC Young Reporter
 description: News articles written by Reading School students in year 8
 layout: none
+search: exclude
 ---
 
 {% include head.html %}

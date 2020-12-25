@@ -15,7 +15,21 @@ search: exclude
     {% break %}
     {% endif %}
     {% endfor %}
+    {% assign page_url_end = page.url| slice: -4, 4 %}
+    
     {% if is_number and number != "404" %}
+    {% assign number_page_check = true %}
+    {% else %}
+    {% assign number_page_check = false %}
+    {% endif %}
+
+    {% if is_number == false and page.url != "/sitemap.xml" and page_url_end != ".css" %}
+    {% assign other_page_check = true %}
+    {% else %}
+    {% assign other_page_check = false %}
+    {% endif %}
+
+    {% if number_page_check or other_page_check %}
     <url>
         <loc>{{ page.url | absolute_url | remove: ".html" }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
@@ -25,9 +39,9 @@ search: exclude
     {% endif %}
     {% endfor %}
 
-    {% for post in site.posts %}
+    {% for article in site.articles %}
     <url>
-        <loc>{{ post.url | absolute_url }}</loc>
+        <loc>{{ article.url | absolute_url }}</loc>
         <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
