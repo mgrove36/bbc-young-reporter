@@ -17,8 +17,10 @@
     
     <url>
         <loc>http://0.0.0.0:4000/years/2019</loc>
-        <lastmod>2020-12-25</lastmod>
-        <changefreq>always</changefreq>
+        
+        <lastmod>2020-12-25T18:13:08+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
@@ -39,8 +41,10 @@
     
     <url>
         <loc>http://0.0.0.0:4000/years/2020</loc>
-        <lastmod>2020-12-25</lastmod>
-        <changefreq>always</changefreq>
+        
+        <lastmod>2020-12-25T18:13:08+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
@@ -79,8 +83,10 @@
     
     <url>
         <loc>http://0.0.0.0:4000/auto-refresh</loc>
-        <lastmod>2020-12-25</lastmod>
-        <changefreq>always</changefreq>
+        
+        <lastmod>2020-12-25T18:13:08+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
@@ -98,8 +104,10 @@
     
     <url>
         <loc>http://0.0.0.0:4000/</loc>
-        <lastmod>2020-12-25</lastmod>
-        <changefreq>always</changefreq>
+        
+        <lastmod>2020-12-25T18:13:08+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
@@ -123,114 +131,146 @@
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/young-reporter-team-ready-to-go.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T09:36:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/whats-next-for-reading-prison.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T10:38:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/what-is-in-the-patients-best-interest.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T11:46:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/video-games-virtual-fantasy-or-a-virtual-prison.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T12:19:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/tennis-club-needs-to-relocate-as-redevelopment-plans-are-called-out.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T12:32:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/could-sky-high-aims-bring-reading-down.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T12:56:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/a-possible-autism-anorexia-link-has-been-found-so-what-are-we-doing-about-it.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T13:38:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/book-week-real-life-issues-inspire-sarah-govett.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T14:14:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/student-survey-shows-rosa-parks-is-most-inspirational-woman-ever.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T14:38:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/are-the-roads-around-your-home-and-school-safe.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T14:46:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2019/finished-product.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2019-03-06T15:52:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2020/reading-gaol-and-its-march-for-the-past.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2020-03-12T14:58:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2020/power-to-the-9s.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2020-03-12T15:25:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2020/charity-children-want-to-create-change.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2020-03-14T15:25:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2020/libraries-must-stay-open.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2020-03-19T08:54:00+00:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
     <url>
         <loc>http://0.0.0.0:4000/articles/2020/its-just-not-cricket-anymore.html</loc>
-        <lastmod>2020-12-25</lastmod>
+        
+        <lastmod>2020-03-29T10:25:00+01:00</lastmod>
+        
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     
 </urlset>

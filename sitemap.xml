@@ -23,17 +23,21 @@ search: exclude
     {% assign number_page_check = false %}
     {% endif %}
 
-    {% if is_number == false and page.url != "/sitemap.xml" and page_url_end != ".css" %}
+    {% unless is_number or page.url == "/sitemap.xml" or page_url_end == ".css" %}
     {% assign other_page_check = true %}
     {% else %}
     {% assign other_page_check = false %}
-    {% endif %}
+    {% endunless %}
 
     {% if number_page_check or other_page_check %}
     <url>
         <loc>{{ page.url | absolute_url | remove: ".html" }}</loc>
-        <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>always</changefreq>
+        {% if page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     {% endif %}
@@ -42,9 +46,13 @@ search: exclude
     {% for article in site.articles %}
     <url>
         <loc>{{ article.url | absolute_url }}</loc>
-        <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+        {% if article.date %}
+        <lastmod>{{ article.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.3</priority>
     </url>
     {% endfor %}
 </urlset>
