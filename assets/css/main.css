@@ -2524,7 +2524,7 @@ body {
     text-decoration: none; }
   
   
-  .header-title {
+  #header > .logo.header-title {
     font-weight: 500;
   }
 
