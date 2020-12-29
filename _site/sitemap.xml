@@ -18,7 +18,7 @@
     <url>
         <loc>http://localhost:4000/years/2019</loc>
         
-        <lastmod>2020-12-29T00:32:39+00:00</lastmod>
+        <lastmod>2020-12-29T21:28:01+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -42,7 +42,7 @@
     <url>
         <loc>http://localhost:4000/years/2020</loc>
         
-        <lastmod>2020-12-29T00:32:39+00:00</lastmod>
+        <lastmod>2020-12-29T21:28:01+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -84,7 +84,7 @@
     <url>
         <loc>http://localhost:4000/auto-refresh</loc>
         
-        <lastmod>2020-12-29T00:32:39+00:00</lastmod>
+        <lastmod>2020-12-29T21:28:01+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -105,7 +105,7 @@
     <url>
         <loc>http://localhost:4000/</loc>
         
-        <lastmod>2020-12-29T00:32:39+00:00</lastmod>
+        <lastmod>2020-12-29T21:28:01+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

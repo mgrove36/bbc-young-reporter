@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans");
 
 /* Colours */
 :root {
@@ -121,10 +121,14 @@ body {
   color: var(--text-colour); }
 
 body, input, select, textarea, button {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.65; }
+
+h1, h2, h3, h4, h5, h6, .header-title {
+  font-family: "Playfair Display";
+}
 
 a {
   -moz-transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
@@ -162,7 +166,7 @@ header.special {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
@@ -2519,6 +2523,13 @@ body {
     line-height: inherit;
     padding: 0 1.25rem;
     text-decoration: none; }
+  
+  
+  .header-title {
+    font-weight: 500;
+  }
+
+
   #header > nav > a {
     color: inherit;
     display: inline-block;
