@@ -18,7 +18,7 @@
 		{% assign currentdate = article.date | date: "%Y" %}
 		{% if currentdate != date %}
 		{% assign year_url = "/years/" | append: currentdate | append: ".html" %}
-		<li><a href="/years/{{ currentdate }}" class="{% if page.url == year_url %}current-page-link{% endif %} year-navbar-link"></a>{{ currentdate }}</a></li>
+		<li><a href="/years/{{ currentdate }}" class="{% if page.url == year_url %}current-page-link{% endif %} year-navbar-link">{{ currentdate }}</a></li>
 		{% assign date = currentdate %}
 		{% endif %}
 		<li><a href="{{ article.url | relative_url }}" class="{% if article.url == page.url %}current-page-link{% endif %} article-navbar-link">{{ article.title }}</a></li>
