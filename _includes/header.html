@@ -10,17 +10,18 @@
 <!-- Nav -->
 <nav id="menu">
 	<ul class="links">
-		<li><a href="https://reading-school.co.uk" class="main-navbar-link">Reading School Website</a></li>
-		<li><a href="/" class="{% if page.url == '/' %}current-page-link{% endif %} main-navbar-link">Home</a></li>
+		{% for link in site.data.navigation-links %}
+		<li><a href="{{ link.url }}" target="_blank" class="{% if page.url == link.url %}current-page-link{% endif %} main-navbar-link">{{ link.title }}</a></li>
+		{% endfor %}
 
-	{% for article in site.articles reversed %}
-	{% assign currentdate = article.date | date: "%Y" %}
-	{% if currentdate != date %}
-	{% assign year_url = "/years/" | append: currentdate | append: ".html" %}
-	<li><a href="/years/{{ currentdate }}" class="{% if page.url == year_url %}current-page-link{% endif %} year-navbar-link"></a>{{ currentdate }}</a></li>
-	{% assign date = currentdate %}
-	{% endif %}
-	<li><a href="{{ article.url | relative_url }}" class="{% if article.url == page.url %}current-page-link{% endif %} article-navbar-link">{{ article.title }}</a></li>
-	{% endfor %}
+		{% for article in site.articles reversed %}
+		{% assign currentdate = article.date | date: "%Y" %}
+		{% if currentdate != date %}
+		{% assign year_url = "/years/" | append: currentdate | append: ".html" %}
+		<li><a href="/years/{{ currentdate }}" class="{% if page.url == year_url %}current-page-link{% endif %} year-navbar-link"></a>{{ currentdate }}</a></li>
+		{% assign date = currentdate %}
+		{% endif %}
+		<li><a href="{{ article.url | relative_url }}" class="{% if article.url == page.url %}current-page-link{% endif %} article-navbar-link">{{ article.title }}</a></li>
+		{% endfor %}
 	</ul>
 </nav>
