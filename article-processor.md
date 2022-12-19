@@ -4,29 +4,36 @@ description: Generate a file to upload to this site, using article metadata.
 ---
 
 
-### Prerequisites
+<section class="wrapper">
+<div class="inner">
 
-Before you begin, ensure you have, as a minimum:
-* a headline,
-* the name(s) of the author(s),
-* a header image, which will be shown behind the headline (so the content of this image can't be vital, like a graph),
-* a caption for your header image,
-* the copyright attribution for your header image,
-* a brief description (one or two short sentences) of your article, and
-* your article content.
+<h3>Prerequisites</h3>
+
+<p>Before you begin, ensure you have, as a minimum:</p>
+<ul>
+    <li>a headline,</li>
+    <li>the name(s) of the author(s),</li>
+    <li>a header image, which will be shown behind the headline (so the content of this image can't be vital, like a graph),</li>
+    <li>a caption for your header image,</li>
+    <li>the copyright attribution for your header image,</li>
+    <li>a brief description (one or two short sentences) of your article, and</li>
+    <li>your article content.</li>
+</ul>
 
 <hr>
 
-### Instructions
+<h3>Instructions</h3>
 
-Fill in the fields below, and then click the *download* button to generate a file to be uploaded to Reading School's BBC Young Reporter website.
+<p>Fill in the fields below, and then click the <i>download</i> button to generate a file to be uploaded to Reading School's BBC Young Reporter website.</p>
 
-Give the authors' names in the format `First_Name Last_Initial`, and separate multiple authors with a comma - e.g. `John D, Emma S`.
+<p>Give the authors' names in the format <code>First_Name Last_Initial</code>, and separate multiple authors with a comma - e.g. <code>John D, Emma S</code>.</p>
 
-* If there are any headings inside your article, please place `# ` in front of them.
-* For subtitles, use `## `, as so on for smaller headings, up to and including `###### `.
-* For bullet points, use `* `, and for indented bullets, increase the indent using the tab button on your keyboard.
-* For numbered lists, use the numbers/letters: e.g. `1. `.
+<ul>
+    <li>If there are any headings inside your article, please place <code># </code> in front of them.</li>
+    <li>For subtitles, use <code>## </code>, as so on for smaller headings, up to and including `###### </code>.</li>
+    <li>For bullet points, use <code>* </code>, and for indented bullets, increase the indent using the tab button on your keyboard.</li>
+    <li>For numbered lists, use the numbers/letters: e.g. <code>1. </code>.</li>
+</ul>
 
 Note the requirement for spaces after each of the above items - for example:
 
@@ -49,13 +56,15 @@ will produce:
 
 </blockquote>
 
-Other formatting can be done with the following:
+<p>Other formatting can be done with the following:</p>
 
-* For italics, use `*my italic text*`.
-* For bold, use `**my bold text**`.
-* For bold and italics, use `***my bold, italic text***`.
-* For links, use `[text to show in article](URL)`.
-* To include an extra image (besides the cover image), use:
+<ul>
+    <li>For italics, use `*my italic text*`.</li>
+    <li>For bold, use `**my bold text**`.</li>
+    <li>For bold and italics, use `***my bold, italic text***`.</li>
+    <li>For links, use `[text to show in article](URL)`.</li>
+    <li>To include an extra image (besides the cover image), use:</li>
+</ul>
 <dl>
 <dd>
 <pre><code>{% raw %}{% include image.html caption="IMAGE_CAPTION" copyright="IMAGE_COPYRIGHT" %}{% endraw %}</code></pre>
@@ -64,7 +73,9 @@ Other formatting can be done with the following:
 </dd>
 </dl>
 
-* To include a video, upload it to YouTube and then use:
+<ul>
+    <li>To include a video, upload it to YouTube and then use:</li>
+</ul>
 <dl>
 <dd>
 <pre><code>{% raw %}{% include video.html id="VIDEO_ID" %}{% endraw %}</code></pre>
@@ -73,14 +84,13 @@ Other formatting can be done with the following:
 </dd>
 </dl>
 
+<p>The cover image for your article must be a JPEG image, and have the `jpg` file extension. If your image is a PNG, you can [convert it using an online tool](https://png2jpg.com/). The file name must also be the same as your article's file name. This will be provided to you when you download the file from this page. E.g. if the file you download from this page is `news-article.md` then your cover image must be `news-article.jpg` (capital letters **DO** matter).</p>
 
-The cover image for your article must be a JPEG image, and have the `jpg` file extension. If your image is a PNG, you can [convert it using an online tool](https://png2jpg.com/). The file name must also be the same as your article's file name. This will be provided to you when you download the file from this page. E.g. if the file you download from this page is `news-article.md` then your cover image must be `news-article.jpg` (capital letters **DO** matter).
-
-Any extra images for your article must be in the format: `ARTICLE_FILE_NAME--extra-IMAGE_ID.jpg`, where you replace `ARTICLE_FILE_NAME` with the file name you used for the cover image, and `IMAGE_ID` with a unique ID for the image - start at 1 for the first image in your article (excluding the cover image). E.g.: `news-article--extra-1.jpg`.
+<p>Any extra images for your article must be in the format: `ARTICLE_FILE_NAME--extra-IMAGE_ID.jpg`, where you replace `ARTICLE_FILE_NAME` with the file name you used for the cover image, and `IMAGE_ID` with a unique ID for the image - start at 1 for the first image in your article (excluding the cover image). E.g.: `news-article--extra-1.jpg`.</p>
 
 <hr>
 
-###  Example
+<h3>Example</h3>
 
 <pre><code># Headline
 
@@ -142,7 +152,7 @@ A link to <a href="https://google.com">Google</a>.
 
 <hr>
 
-### Generator
+<h3>Generator</h3>
 
 <form onreset="if (!($('form a.submit').hasClass('disabled'))) $('form a.submit').addClass('disabled');">
     <div class="row gtr-uniform">
@@ -174,6 +184,9 @@ A link to <a href="https://google.com">Google</a>.
         </div>
     </div>
 </form>
+
+</section>
+</div>
 
 <script>
 function checkFieldStatuses() {
