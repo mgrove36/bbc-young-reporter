@@ -185,8 +185,8 @@ A link to <a href="https://google.com">Google</a>.
     </div>
 </form>
 
-</section>
 </div>
+</section>
 
 <script>
 function checkFieldStatuses() {
